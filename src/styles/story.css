@@ -1,0 +1,177 @@
+/* Story column: Requirements 6, 9.2, 9.5, 12 */
+.story-column {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+  height: 100dvh;
+  min-width: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  touch-action: pan-y; /* vertical drags scroll the story, never the model (Req 13.7) */
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+  background: var(--color-overlay);
+  padding: calc(2rem + env(safe-area-inset-top, 0px))
+    calc(2rem + env(safe-area-inset-right, 0px))
+    calc(2rem + env(safe-area-inset-bottom, 0px))
+    2rem;
+  color: var(--color-body);
+  font-family: var(--font-body);
+}
+
+.story-chapter {
+  min-height: 70vh;
+  margin: 0 0 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.story-chapter__title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: var(--size-heading);
+  line-height: var(--line-height-heading);
+  color: var(--color-heading);
+}
+
+.story-chapter__narrative {
+  margin: 0;
+  font-size: var(--size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-body);
+}
+
+.story-figure {
+  margin: 0;
+}
+
+.story-figure__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.story-figure__placeholder {
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+  border: 1px solid var(--color-caption);
+  color: var(--color-caption);
+  font-size: var(--size-caption);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.story-figure__caption {
+  margin-top: 0.5rem;
+  font-size: var(--size-caption);
+  line-height: 1.5;
+  color: var(--color-caption);
+}
+
+.story-callout {
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--color-callout);
+  color: var(--color-callout);
+  font-size: var(--size-callout);
+  line-height: var(--line-height-body);
+}
+
+.story-callout__label {
+  margin: 0 0 0.5rem;
+  font-family: var(--font-heading);
+  font-size: var(--size-caption);
+  color: var(--color-callout);
+}
+
+.story-callout__text {
+  margin: 0 0 0.75rem;
+}
+
+.story-citation {
+  margin: 0;
+  font-size: var(--size-caption);
+  color: var(--color-caption);
+}
+
+.story-citation__link {
+  color: var(--color-callout);
+  display: inline-block;
+  min-width: 44px;
+  min-height: 44px;
+  line-height: 44px; /* 44 px hit area; keeps the text centred */
+  box-sizing: border-box;
+}
+
+.story-citation__link:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+.story-summary-slot:empty {
+  display: none;
+}
+
+/* Reveal animations (IntersectionObserver in storyColumn.js adds .is-visible) */
+.story-chapter__title,
+.story-chapter__narrative,
+.story-callout {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+.story-figure {
+  opacity: 0;
+  transition: opacity 400ms ease;
+}
+
+.story-chapter__title.is-visible,
+.story-chapter__narrative.is-visible,
+.story-callout.is-visible,
+.story-figure.is-visible,
+.story-chapter.is-visible > * {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .story-chapter__title,
+  .story-chapter__narrative,
+  .story-callout {
+    transform: none;
+    transition: none;
+  }
+  .story-figure {
+    transition: none;
+  }
+}
+
+/* The column scrolls, so it is keyboard focusable; keep its focus ring inside the edge. */
+.story-column:focus-visible {
+  outline-offset: -4px;
+}
+
+/* Mobile: stack below the canvas (Requirement 13.3) */
+@media (max-width: 767.98px) {
+  .story-column {
+    top: auto;
+    /* The column and the controls bar together fill the bottom 60%. */
+    bottom: calc(var(--controls-bar-h) + env(safe-area-inset-bottom, 0px));
+    width: 100%;
+    height: calc(60vh - var(--controls-bar-h) - env(safe-area-inset-bottom, 0px));
+    height: calc(60dvh - var(--controls-bar-h) - env(safe-area-inset-bottom, 0px));
+    padding-top: 1.25rem;
+    padding-bottom: 1.5rem;
+    padding-left: calc(1rem + env(safe-area-inset-left, 0px));
+    padding-right: calc(1rem + env(safe-area-inset-right, 0px));
+  }
+  .story-chapter {
+    min-height: 50vh;
+    min-height: 50dvh;
+    margin-bottom: 2.5rem;
+  }
+}

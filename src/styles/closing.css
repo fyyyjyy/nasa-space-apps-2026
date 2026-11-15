@@ -1,0 +1,60 @@
+/* Closing screen over the opening scene (Req 10.8). */
+.closing-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  padding: calc(2rem + env(safe-area-inset-top, 0px)) calc(1rem + env(safe-area-inset-right, 0px)) calc(2rem + env(safe-area-inset-bottom, 0px)) calc(1rem + env(safe-area-inset-left, 0px));
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  overscroll-behavior: contain;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+.closing-screen__title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: var(--size-title);
+  line-height: var(--line-height-heading);
+  color: var(--color-heading);
+}
+.closing-screen__span {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-body);
+}
+.closing-screen__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: min(100%, 36rem);
+}
+.closing-screen__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 1rem;
+  font-family: var(--font-body);
+  color: var(--color-body);
+}
+.closing-screen__name {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+}
+.closing-screen__title:focus {
+  outline: none;
+}
+.closing-screen__action {
+  min-width: 44px;
+  min-height: 44px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .closing-screen { transition: none; }
+}

@@ -1,0 +1,1487 @@
+[
+  {
+    "id": "surveyor3",
+    "journeyOrder": 0,
+    "name": "Surveyor 3",
+    "hardwareName": "Surveyor 3 Lander",
+    "body": "moon",
+    "locationName": "Ocean of Storms",
+    "year": 1967,
+    "dates": "April 17 – May 4, 1967",
+    "finalStatus": "Last contact May 4, 1967. The lander still rests in its crater.",
+    "tooltip": "Surveyor 3 · Ocean of Storms",
+    "description": "In 1967 a robot lander bounced twice, then dug the first trenches in lunar soil to test it for the Apollo landings.",
+    "landing": {
+      "lat": -3,
+      "lon": -23.41
+    },
+    "referenceLanding": {
+      "lat": -3,
+      "lon": -23.41,
+      "source": "https://science.nasa.gov/mission/surveyor-3/ (NASA mission page: 3 degrees south, 23.41 degrees west, southeastern Oceanus Procellarum)"
+    },
+    "model": {
+      "path": "models/surveyor3.glb",
+      "format": "glb",
+      "scale": 1,
+      "groundOffset": 0
+    },
+    "citations": [
+      {
+        "label": "NASA Science: Surveyor 3 mission page",
+        "url": "https://science.nasa.gov/mission/surveyor-3/"
+      },
+      {
+        "label": "NASA Science: Footpads and Footprints, Humans and Machine Meet on the Moon",
+        "url": "https://science.nasa.gov/solar-system/moon/footpads-and-footprints-humans-and-machine-meet-on-the-moon"
+      },
+      {
+        "label": "NASA: Lunar Reconnaissance Orbiter Looks at Apollo 12, Surveyor 3 Landing Sites",
+        "url": "https://www.nasa.gov/missions/lunar-reconnaissance-orbiter-looks-at-apollo-12-surveyor-3-landing-sites/"
+      },
+      {
+        "label": "NASA History: 50 Years Ago, Apollo 12, The Journey Home",
+        "url": "https://www.nasa.gov/history/50-years-ago-apollo-12-the-journey-home/"
+      },
+      {
+        "label": "NASA NTRS: Testing Forward Contamination Outcomes (NASA Ames presentation)",
+        "url": "https://ntrs.nasa.gov/api/citations/20205003575/downloads/Moon%20debris%20mission.pdf"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "surveyor3-ch1",
+        "title": "Three Touchdowns",
+        "narrative": "I fell toward the Ocean of Storms, and my radar watched the ground. Shiny rocks confused it. My engine did not shut off at the right moment. I hit the Moon and bounced up. I came down and bounced again. On my third touchdown, I finally stayed put. It was April 20, 1967. I sat inside a crater about 200 meters wide, in the southeastern part of Oceanus Procellarum. People later named it Surveyor crater. I was the second Surveyor to soft-land on the Moon.",
+        "callout": {
+          "text": "Highly reflective rocks confused the lander's descent radar, so the engine did not cut off at the correct moment. Surveyor 3 bounced to a height of about 10 meters, then about 3 meters, before it settled.",
+          "citation": {
+            "label": "NASA Science: Surveyor 3 mission page",
+            "url": "https://science.nasa.gov/mission/surveyor-3/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            1.4,
+            1.2,
+            3.4
+          ],
+          "lookAt": [
+            0,
+            0.5,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.6,
+            0
+          ],
+          "modelZoom": 1,
+          "lightAzimuthDeg": 55,
+          "lightIntensity": 1.4
+        },
+        "images": [
+          {
+            "nasaId": "as12-48-7121",
+            "src": "images/surveyor3-ch1.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as12-48-7121",
+            "alt": "Surveyor 3 spacecraft resting on the sloped wall of its small crater on the gray lunar surface, photographed by Apollo 12 astronauts.",
+            "caption": "Surveyor 3 in its crater, photographed during Apollo 12 in 1969. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "surveyor3-ch2",
+        "title": "Digging for Answers",
+        "narrative": "Now my real job began. I had an arm with a small scoop. It could reach about 1.5 meters from my body and dig about 18 centimeters deep. Controllers on Earth sent the commands. I dug four trenches. I pressed on the soil four times to test its strength. I also ran thirteen impact tests. Scientists studied my pictures of every move. They decided the soil felt like wet sand. It was solid enough to support an Apollo lunar module.",
+        "callout": {
+          "text": "Surveyor 3 dug four trenches and performed four bearing tests and thirteen impact tests. Scientists concluded the lunar soil had a consistency similar to wet sand, with a bearing strength of about 10 pounds per square inch.",
+          "citation": {
+            "label": "NASA Science: Surveyor 3 mission page",
+            "url": "https://science.nasa.gov/mission/surveyor-3/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1.1,
+            0.8,
+            2.6
+          ],
+          "lookAt": [
+            0.2,
+            0.3,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -0.7,
+            0
+          ],
+          "modelZoom": 1.6,
+          "lightAzimuthDeg": 35,
+          "lightIntensity": 1.5
+        },
+        "images": [
+          {
+            "nasaId": "as12-48-7110",
+            "src": "images/surveyor3-ch2.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as12-48-7110",
+            "alt": "Close-up of a Surveyor 3 footpad and the surface sampler scoop, with a bounce imprint in the lunar soil beside the footpad.",
+            "caption": "Surveyor 3 footpad and soil scoop, with its landing bounce imprint in the soil. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "surveyor3-ch3",
+        "title": "The Long Wait",
+        "narrative": "I sent home 6,326 television pictures. The first began to arrive less than an hour after I landed. Then the lunar night began. I run on sunlight, and the sunlight was gone. Two days later, on May 4, 1967, NASA made its last contact with me. After that, I was silent. I stayed in my crater for about 31 months. Nothing moved around me, and no one spoke.",
+        "callout": {
+          "text": "Surveyor 3 sent 6,326 TV pictures. NASA's last contact was on May 4, 1967, two days after the lunar night began and left the solar-powered spacecraft in the dark.",
+          "citation": {
+            "label": "NASA Science: Surveyor 3 mission page",
+            "url": "https://science.nasa.gov/mission/surveyor-3/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            0,
+            0.6,
+            3.8
+          ],
+          "lookAt": [
+            0,
+            0.4,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.1,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 200,
+          "lightIntensity": 0.8
+        },
+        "images": [
+          {
+            "nasaId": "as12-48-7099",
+            "src": "images/surveyor3-ch3.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as12-48-7099",
+            "alt": "Surveyor 3 in the foreground on the lunar surface, with the Apollo 12 lunar module, S-band antenna and flag in the distance.",
+            "caption": "Surveyor 3 and the Apollo 12 lunar module, 600 feet apart on the Moon. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "surveyor3-ch4",
+        "title": "Visitors From Earth",
+        "narrative": "In November 1969, something landed nearby. It was Apollo 12, and it came down about 180 meters (roughly 600 feet) from me. Two astronauts, Pete Conrad and Alan Bean, walked over to my crater. They were the first humans to touch a spacecraft that had landed on another world. They took my TV camera, my soil scoop and some other parts. Scientists on Earth wanted to study what the Moon had done to them.",
+        "callout": {
+          "text": "On the second Apollo 12 moonwalk, the astronauts recovered Surveyor 3 parts, including the soil scoop and camera system. Scientists used them to study the effects of about 31 months on the Moon.",
+          "citation": {
+            "label": "NASA History: 50 Years Ago, Apollo 12, The Journey Home",
+            "url": "https://www.nasa.gov/history/50-years-ago-apollo-12-the-journey-home/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -0.6,
+            0.9,
+            3
+          ],
+          "lookAt": [
+            0,
+            0.7,
+            0
+          ],
+          "modelRotation": [
+            0,
+            2.2,
+            0
+          ],
+          "modelZoom": 1.2,
+          "lightAzimuthDeg": 70,
+          "lightIntensity": 1.6
+        },
+        "images": [
+          {
+            "nasaId": "AS12-48-7133",
+            "src": "images/surveyor3-ch4.webp",
+            "sourceUrl": "https://images.nasa.gov/details/AS12-48-7133",
+            "alt": "Apollo 12 astronaut Pete Conrad standing beside Surveyor 3 on the Moon, with the Apollo 12 lunar module on the horizon.",
+            "caption": "Pete Conrad beside Surveyor 3, Apollo 12 lunar module behind, Nov. 20, 1969. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "surveyor3-ch5",
+        "title": "A Tiny Passenger?",
+        "narrative": "Back on Earth, scientists studied my camera. Researchers reported finding bacteria called Streptococcus mitis in foam deep inside it. At first, that sounded amazing. Had life survived on the Moon? Later analysis suggests it did not. The germs were most likely contamination from Earth. They probably hitched a ride before I ever left. That taught scientists a lesson. When you study another world, you must keep your samples clean.",
+        "callout": {
+          "text": "A NASA Ames Research Center presentation notes that Streptococcus mitis was reported in foam inside the returned Surveyor 3 camera, and asks whether it was a survivor or contamination. Later analysis suggests it was most likely contamination from Earth.",
+          "citation": {
+            "label": "NASA NTRS: Testing Forward Contamination Outcomes (NASA Ames presentation)",
+            "url": "https://ntrs.nasa.gov/api/citations/20205003575/downloads/Moon%20debris%20mission.pdf"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            0.3,
+            1.3,
+            2.4
+          ],
+          "lookAt": [
+            0,
+            1,
+            0
+          ],
+          "modelRotation": [
+            0.1,
+            3.4,
+            0
+          ],
+          "modelZoom": 2.2,
+          "lightAzimuthDeg": 110,
+          "lightIntensity": 1.2
+        },
+        "images": [
+          {
+            "nasaId": "AS12-48-7134",
+            "src": "images/surveyor3-ch5.webp",
+            "sourceUrl": "https://images.nasa.gov/details/AS12-48-7134",
+            "alt": "An Apollo 12 astronaut in a white spacesuit reaches toward the television camera of Surveyor 3, with the lunar module far behind.",
+            "caption": "An Apollo 12 astronaut at Surveyor 3, whose TV camera was removed for study. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "surveyor3-ch6",
+        "title": "Still Here",
+        "narrative": "The rest of me never left my crater. I have stayed there since 1967. NASA's Lunar Reconnaissance Orbiter later looked down from space and took pictures of the area. You can pick out the Apollo 12 lander, the paths the astronauts walked, and me. I am a robot that went first. My digging helped show that people could land safely on the Moon. I am still keeping watch in the Ocean of Storms.",
+        "callout": {
+          "text": "Images from the Lunar Reconnaissance Orbiter Camera show the Apollo 12 lunar module (Intrepid), Surveyor 3 and astronaut tracks in Oceanus Procellarum.",
+          "citation": {
+            "label": "NASA: Lunar Reconnaissance Orbiter Looks at Apollo 12, Surveyor 3 Landing Sites",
+            "url": "https://www.nasa.gov/missions/lunar-reconnaissance-orbiter-looks-at-apollo-12-surveyor-3-landing-sites/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            0,
+            2.2,
+            5
+          ],
+          "lookAt": [
+            0,
+            0.3,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.8,
+            0
+          ],
+          "modelZoom": 0.7,
+          "lightAzimuthDeg": 40,
+          "lightIntensity": 1
+        },
+        "images": [
+          {
+            "nasaId": "PIA12922",
+            "src": "images/surveyor3-ch6.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA12922",
+            "alt": "Gray overhead view of the Apollo 12 landing area on the Ocean of Storms, with craters, bright spots and the dark-edged lander spot at center.",
+            "caption": "Apollo 12 landing site in the Ocean of Storms, seen by LRO. Credit: NASA/GSFC/Arizona State University"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo11",
+    "journeyOrder": 1,
+    "name": "Apollo 11",
+    "hardwareName": "Eagle Descent Stage",
+    "body": "moon",
+    "locationName": "Tranquility Base",
+    "year": 1969,
+    "dates": "July 16–24, 1969",
+    "finalStatus": "The descent stage remains at Tranquility Base.",
+    "tooltip": "Apollo 11 · Tranquility Base",
+    "description": "In 1969 Eagle carried the first humans to land on the Moon, and its descent stage stayed behind on the surface.",
+    "landing": {
+      "lat": 0.6734,
+      "lon": 23.473
+    },
+    "referenceLanding": {
+      "lat": 0.6734,
+      "lon": 23.473,
+      "source": "https://ilrs.gsfc.nasa.gov/missions/satellite_missions/current_missions/ap11_general.html (NASA ILRS page: Apollo 11 site in Mare Tranquillitatis, 0.6734° N, 23.473° E)"
+    },
+    "model": {
+      "path": "models/apollo11.glb",
+      "format": "glb",
+      "sourceUrl": "https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/Apollo%20Lunar%20Module",
+      "scale": 1,
+      "groundOffset": 0
+    },
+    "citations": [
+      {
+        "label": "NASA Science: Wide Awake on the Sea of Tranquillity",
+        "url": "https://www.nasa.gov/missions/apollo/apollo-11/wide-awake-on-the-sea-of-tranquillity/"
+      },
+      {
+        "label": "NASA Apollo 11 Lunar Surface Journal: Mission Overview",
+        "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html"
+      },
+      {
+        "label": "NASA History: Apollo Expeditions to the Moon, The Landing",
+        "url": "https://www.nasa.gov/wp-content/uploads/static/history/SP-350/ch-11-4.html"
+      },
+      {
+        "label": "NASA Apollo 11 Lunar Surface Journal: The 1201 and 1202 Program Alarms",
+        "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11.1201-pa.html"
+      },
+      {
+        "label": "NASA History: Chariots for Apollo, Appendix E",
+        "url": "https://www.hq.nasa.gov/pao/History/SP-4205/app-e.html"
+      },
+      {
+        "label": "NASA History: Where No Man Has Gone Before, Chapter 11",
+        "url": "https://www.hq.nasa.gov/pao/History/SP-4214/ch11-4.html"
+      },
+      {
+        "label": "NASA JPL: The Apollo Experiment That Keeps on Giving",
+        "url": "https://www.nasa.gov/missions/apollo/apollo-11/the-apollo-experiment-that-keeps-on-giving/"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "apollo11-ch1",
+        "title": "Seventeen Seconds",
+        "narrative": "On July 20, 1969, I carried two men down toward Tranquility Base. My computer flashed 1202 and 1201 alarms. It was handling too many jobs at once. Houston said to keep going. Then Neil Armstrong saw that we were headed for a field of boulders. He took manual control and flew me past a crater and the rocks. Mission Control thought I had about 17 seconds of fuel left. Then my footpads touched down. Armstrong said, \"Houston, Tranquility Base here. The Eagle has landed.\"",
+        "callout": {
+          "text": "Program alarms 1202 and 1201 meant the guidance computer was overloaded. Mission Control judged it safe to continue, and Armstrong flew manually over a boulder field. The lunar module settled onto the surface with only seconds of fuel remaining.",
+          "citation": {
+            "label": "NASA History: Apollo Expeditions to the Moon, The Landing",
+            "url": "https://www.nasa.gov/wp-content/uploads/static/history/SP-350/ch-11-4.html"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            1.85,
+            0.42,
+            3.52
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.9,
+            0
+          ],
+          "modelZoom": 1,
+          "lightAzimuthDeg": 70,
+          "lightIntensity": 1.1
+        },
+        "images": [
+          {
+            "nasaId": "as11-37-5458",
+            "src": "images/apollo11-ch1.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as11-37-5458",
+            "alt": "View from the Apollo 11 lunar module window showing small rocks and craters on the Moon near the landing spot.",
+            "caption": "Lunar surface near the Eagle landing spot, seen from its window. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "apollo11-ch2",
+        "title": "Magnificent Desolation",
+        "narrative": "Hours after I landed, Neil Armstrong climbed down my ladder. He was the first person to step onto the Moon. Buzz Aldrin followed him. Aldrin looked around at the gray, empty land and said, \"Magnificent desolation.\" The sky was black. The ground was bright. The two men worked outside for about two and a half hours. They stayed on the Moon for about 21.6 hours in all. Then they climbed back in and left in my top half, the ascent stage. I stayed behind.",
+        "callout": {
+          "text": "Armstrong and Aldrin spent about two and a half hours outside on one moonwalk. The lunar surface stay lasted 21.6 hours. The ascent stage left the surface, and the descent stage stayed on the Moon.",
+          "citation": {
+            "label": "NASA Apollo 11 Lunar Surface Journal: Mission Overview",
+            "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1.93,
+            0.48,
+            3.47
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -0.5,
+            0
+          ],
+          "modelZoom": 1.2,
+          "lightAzimuthDeg": 40,
+          "lightIntensity": 1.6
+        },
+        "images": [
+          {
+            "nasaId": "as11-40-5903",
+            "src": "images/apollo11-ch2.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as11-40-5903",
+            "alt": "Astronaut Buzz Aldrin walking on the gray lunar surface beside a leg of the Eagle lunar module, in black sky.",
+            "caption": "Buzz Aldrin walks near Eagle on the Moon, July 20, 1969. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "apollo11-ch3",
+        "title": "Rocks From Another World",
+        "narrative": "The astronauts filled boxes with Moon rocks and soil. They carried about 21.6 kilograms home. These were the first samples from another world. Scientists studied them in labs on Earth. They found basalts, a kind of lava rock. The basalts were between 3 and 4 billion years old. Later Apollo missions brought back more samples. Together, the samples helped scientists develop the giant impact theory. It says the Moon formed after a huge crash long ago.",
+        "callout": {
+          "text": "More than 21 kilograms of samples came back from Tranquility Base. The basalts were found to be between 3 and 4 billion years old.",
+          "citation": {
+            "label": "NASA History: Chariots for Apollo, Appendix E",
+            "url": "https://www.hq.nasa.gov/pao/History/SP-4205/app-e.html"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            0.6,
+            0.5,
+            3
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            2.2,
+            0
+          ],
+          "modelZoom": 1.2,
+          "lightAzimuthDeg": 110,
+          "lightIntensity": 1.3
+        },
+        "images": [
+          {
+            "nasaId": "S69-40749",
+            "src": "images/apollo11-ch3.webp",
+            "sourceUrl": "https://images.nasa.gov/details/S69-40749",
+            "alt": "A scientist in the Lunar Receiving Laboratory examines Apollo 11 lunar material in a sieve from the bulk sample container.",
+            "caption": "Apollo 11 lunar material examined in the Lunar Receiving Laboratory, 1969. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "apollo11-ch4",
+        "title": "Left Behind",
+        "narrative": "I am still at Tranquility Base. So are the things the crew set up. One is a passive seismic experiment. Another is a laser reflector. It has 100 quartz glass prisms and needs no power. Scientists on Earth still aim lasers at it. They time how long the light takes to come back. That shows the Moon is moving farther from Earth by about 3.8 centimeters each year. It is quiet here now. I am still doing science.",
+        "callout": {
+          "text": "The Apollo 11 laser reflector array has 100 quartz glass prisms. Laser measurements show the Moon's distance from Earth grows by about 3.8 centimeters (1.5 inches) a year.",
+          "citation": {
+            "label": "NASA JPL: The Apollo Experiment That Keeps on Giving",
+            "url": "https://www.nasa.gov/missions/apollo/apollo-11/the-apollo-experiment-that-keeps-on-giving/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -0.61,
+            0.38,
+            3.94
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -1.2,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 20,
+          "lightIntensity": 0.9
+        },
+        "images": [
+          {
+            "nasaId": "as11-40-5948",
+            "src": "images/apollo11-ch4.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as11-40-5948",
+            "alt": "Buzz Aldrin on the Moon after deploying the experiments package, with the seismometer and laser reflector in the foreground.",
+            "caption": "Aldrin and the deployed seismic and laser experiments, 1969. Credit: NASA JSC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apollo17",
+    "journeyOrder": 2,
+    "name": "Apollo 17",
+    "hardwareName": "Lunar Roving Vehicle",
+    "body": "moon",
+    "locationName": "Taurus-Littrow Valley",
+    "year": 1972,
+    "dates": "December 7–19, 1972",
+    "finalStatus": "The rover is parked in Taurus-Littrow Valley.",
+    "tooltip": "Apollo 17 · Taurus-Littrow Valley",
+    "description": "In 1972 the last crewed Moon landing used a rover to explore a valley, and the rover is still parked there.",
+    "landing": {
+      "lat": 20.19,
+      "lon": 30.77
+    },
+    "referenceLanding": {
+      "lat": 20.19,
+      "lon": 30.77,
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo17info.html (NASA NSSDC: Taurus-Littrow landing site 20.19° N, 30.77° E, the Lunar Module site where the rover was left)"
+    },
+    "model": {
+      "path": "models/apollo17.glb",
+      "format": "glb",
+      "scale": 1,
+      "groundOffset": 0
+    },
+    "citations": [
+      {
+        "label": "NASA: Apollo 17 Mission Details",
+        "url": "https://www.nasa.gov/missions/apollo/apollo-17-mission-details/"
+      },
+      {
+        "label": "NASA NSSDC: Apollo Lunar Roving Vehicle",
+        "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+      },
+      {
+        "label": "NASA JSC Astromaterials: Lunar Disk 45, Orange Soil",
+        "url": "https://curator.jsc.nasa.gov/education/diskdetails.cfm?class=Orange%20Soil&disk=45"
+      },
+      {
+        "label": "NASA History: 50 Years Ago, Apollo 17 Heads Home to Earth",
+        "url": "https://www.nasa.gov/history/50-years-ago-apollo-17-heads-home-to-earth/"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "apollo17-ch1",
+        "title": "The Last Landing",
+        "narrative": "I am the Lunar Roving Vehicle. My story starts on December 11, 1972. That day, the lunar module Challenger landed in Taurus-Littrow Valley. It was the last crewed landing on the Moon. Scientists chose this valley for a reason. They hoped to find rocks both older and younger than the ones brought home before. Astronauts Eugene Cernan and Harrison Schmitt were going to drive me here. They lifted off again on December 14, 1972.",
+        "callout": {
+          "text": "Taurus-Littrow was picked as a place where rocks both older and younger than earlier Apollo and Luna samples might be found. Landing came on December 11, 1972, and the crew lifted off on December 14, 1972.",
+          "citation": {
+            "label": "NASA: Apollo 17 Mission Details",
+            "url": "https://www.nasa.gov/missions/apollo/apollo-17-mission-details/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            3.6,
+            1.8,
+            6
+          ],
+          "lookAt": [
+            0,
+            0.5,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.8,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 60,
+          "lightIntensity": 1.2
+        },
+        "images": [
+          {
+            "nasaId": "as17-134-20435",
+            "src": "images/apollo17-ch1.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as17-134-20435",
+            "alt": "Wide view of the Taurus-Littrow valley on the Moon, with the lunar module and the Lunar Roving Vehicle far apart on gray ground below pale mountains and black sky.",
+            "caption": "Taurus-Littrow landing site with the lunar module and rover, December 1972. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "apollo17-ch2",
+        "title": "Rolling Across the Valley",
+        "narrative": "Now I got to run. The crew drove me across the valley on three trips. Together, we covered about 35.9 kilometers. That took about 4 hours and 26 minutes of driving. NASA says that is the greatest distance driven by any crewed vehicle on the Moon. I run on batteries, so I make no engine noise. I carried two astronauts and their tools over the dusty ground. It was a good ride.",
+        "callout": {
+          "text": "The Lunar Roving Vehicle's traverses covered about 35.9 km in about 4 hours 26 minutes of driving, the greatest distance driven by any crewed vehicle on the Moon. (NASA sources report slightly different totals.)",
+          "citation": {
+            "label": "NASA NSSDC: Apollo Lunar Roving Vehicle",
+            "url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/apollo_lrv.html"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -3.2,
+            0.9,
+            2.8
+          ],
+          "lookAt": [
+            0.6,
+            0.4,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -0.9,
+            0
+          ],
+          "modelZoom": 1.5,
+          "lightAzimuthDeg": 35,
+          "lightIntensity": 1.6
+        },
+        "images": [
+          {
+            "nasaId": "as17-134-20454",
+            "src": "images/apollo17-ch2.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as17-134-20454",
+            "alt": "Astronaut Harrison Schmitt in a white, dusty spacesuit sits in the Lunar Roving Vehicle on gray ground, with a hill and black sky behind.",
+            "caption": "Harrison Schmitt rides the Lunar Roving Vehicle, December 13, 1972. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "apollo17-ch3",
+        "title": "Orange Soil",
+        "narrative": "On the second moonwalk, something odd caught Harrison Schmitt's eye. He was a geologist, a scientist who studies rocks. Near Shorty Crater, he spotted orange soil. Everything else was gray. The orange soil turned out to be tiny glass beads. They formed about 3.5 billion years ago, when lava sprayed up like fountains and cooled in the air. Scientists call it a volcanic ash. The Moon had a fiery past.",
+        "callout": {
+          "text": "The orange soil the Apollo 17 astronauts found is made of tiny glass beads. It formed about 3.5 billion years ago from sprays of lava and is better described as a volcanic ash than a soil.",
+          "citation": {
+            "label": "NASA JSC Astromaterials: Lunar Disk 45, Orange Soil",
+            "url": "https://curator.jsc.nasa.gov/education/diskdetails.cfm?class=Orange%20Soil&disk=45"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            0.4,
+            1.4,
+            2.4
+          ],
+          "lookAt": [
+            0,
+            0.5,
+            0.2
+          ],
+          "modelRotation": [
+            0.1,
+            2,
+            0
+          ],
+          "modelZoom": 2.2,
+          "lightAzimuthDeg": 100,
+          "lightIntensity": 1.4
+        },
+        "images": [
+          {
+            "nasaId": "as17-137-20990",
+            "src": "images/apollo17-ch3.webp",
+            "sourceUrl": "https://images.nasa.gov/details/as17-137-20990",
+            "alt": "Orange and brown soil on the gray Moon at Shorty Crater, with a tripod-like gnomon standing beside it and a rocky rim behind.",
+            "caption": "Orange soil at Shorty Crater, found on the second Apollo 17 moonwalk. Credit: NASA JSC"
+          }
+        ]
+      },
+      {
+        "id": "apollo17-ch4",
+        "title": "The Last Footsteps",
+        "narrative": "The crew gathered about 110 kilograms of samples. That was a record Apollo haul. Scientists still study those rocks and soil today. Then it was time to go home. Eugene Cernan was the last person to have walked on the Moon. The crew lifted off on December 14, 1972. I stayed behind, parked in Taurus-Littrow Valley. I am still here. Maybe someone will visit me again one day.",
+        "callout": {
+          "text": "Apollo 17 astronauts gathered 110.4 kilograms (243 pounds) of material, and Apollo 17 was the last lunar landing mission. Eugene Cernan was the last person to have walked on the Moon.",
+          "citation": {
+            "label": "NASA: Apollo 17 Mission Details",
+            "url": "https://www.nasa.gov/missions/apollo/apollo-17-mission-details/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1,
+            1.6,
+            7
+          ],
+          "lookAt": [
+            0,
+            0.5,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -1.4,
+            0
+          ],
+          "modelZoom": 0.6,
+          "lightAzimuthDeg": 15,
+          "lightIntensity": 0.8
+        },
+        "images": [
+          {
+            "nasaId": "S72-55421",
+            "src": "images/apollo17-ch4.webp",
+            "sourceUrl": "https://images.nasa.gov/details/S72-55421",
+            "alt": "Blurry color TV image of the Challenger ascent stage rising above the Moon, leaving its descent stage on the ground.",
+            "caption": "Challenger lifts off from the Moon, December 14, 1972. Credit: NASA JSC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "viking1",
+    "journeyOrder": 3,
+    "name": "Viking 1",
+    "hardwareName": "Viking 1 Lander",
+    "body": "mars",
+    "locationName": "Chryse Planitia",
+    "year": 1976,
+    "dates": "August 20, 1975 – November 11, 1982",
+    "finalStatus": "Contact lost November 11, 1982 after a faulty command from Earth.",
+    "tooltip": "Viking 1 · Chryse Planitia",
+    "description": "In 1976 Viking 1 landed on Mars, sent back the first photos from the surface and worked for over six years.",
+    "landing": {
+      "lat": 22.483,
+      "lon": -47.94
+    },
+    "referenceLanding": {
+      "lat": 22.483,
+      "lon": -47.94,
+      "source": "https://science.nasa.gov/mission/viking-1/ (NASA mission page: 22.483 degrees north, 47.94 degrees west)"
+    },
+    "model": {
+      "path": "models/viking1.glb",
+      "format": "glb",
+      "sourceUrl": "https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/Viking%20Lander",
+      "scale": 1,
+      "groundOffset": 0
+    },
+    "citations": [
+      {
+        "label": "NASA Science: Viking 1 mission page",
+        "url": "https://science.nasa.gov/mission/viking-1/"
+      },
+      {
+        "label": "NASA Science: Viking 2 mission page",
+        "url": "https://science.nasa.gov/mission/viking-2/"
+      },
+      {
+        "label": "NASA Science: First Photograph Taken On Mars Surface",
+        "url": "https://science.nasa.gov/photojournal/first-photograph-taken-on-mars-surface/"
+      },
+      {
+        "label": "NASA Science: First Color Image From Viking Lander 1",
+        "url": "https://science.nasa.gov/resource/first-color-image-from-viking-lander-1/"
+      },
+      {
+        "label": "NASA Science: Viking Lander Model",
+        "url": "https://science.nasa.gov/resource/viking-lander-model/"
+      },
+      {
+        "label": "NASA Science: Frost on Utopia Planitia",
+        "url": "https://science.nasa.gov/photojournal/frost-on-utopia-planitia/"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "viking1-ch1",
+        "title": "Touchdown on Chryse",
+        "narrative": "I am Viking Lander 1. I look a bit like a much larger version of NASA's Surveyor Moon landers, such as Surveyor 3, which landed in 1967. On July 20, 1976, I dropped toward Mars. Photos from my orbiter had shown that the first landing spot was rougher than expected. So scientists picked a new site on the western slopes of Chryse Planitia. I landed about 28 kilometers from that new target. Another country's lander, Mars 3, touched down in 1971 but lost contact within seconds. My landing was NASA's first truly successful one on Mars.",
+        "callout": {
+          "text": "Viking 1 made NASA's first truly successful landing on Mars. The Soviet Mars 3 lander touched down in 1971 but contact was lost seconds later. Viking 1 landed July 20, 1976, about 28 kilometers (17 miles) from its planned target.",
+          "citation": {
+            "label": "NASA Science: Viking 1 mission page",
+            "url": "https://science.nasa.gov/mission/viking-1/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            1.84,
+            0.38,
+            3.53
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.7,
+            0
+          ],
+          "modelZoom": 1,
+          "lightAzimuthDeg": 65,
+          "lightIntensity": 1.2
+        },
+        "images": [
+          {
+            "nasaId": "PIA09703",
+            "src": "images/viking1-ch1.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA09703",
+            "alt": "A model of the Viking lander standing on pale sand in front of a painted Mars landscape, with a dish antenna, a robot arm and a long dark boom.",
+            "caption": "A model of the Viking lander, which landed on Mars in 1976. Credit: NASA/JPL-Caltech/University of Arizona"
+          }
+        ]
+      },
+      {
+        "id": "viking1-ch2",
+        "title": "My First Look",
+        "narrative": "Within minutes of landing, my camera took the first photograph ever made from the surface of Mars. It showed rocks and fine sand about 1.4 meters from me. Then I took sharper pictures in three colors, and a 300-degree panorama of the gently rolling plain around me. My first color image came on July 21. The ground was orange-red. The sky had a reddish cast too, because of reddish dust floating in the air.",
+        "callout": {
+          "text": "NASA's first color image from Viking Lander 1, taken July 21, 1976, shows orange-red ground. The sky has a reddish cast, probably from reddish sediment suspended in the lower atmosphere.",
+          "citation": {
+            "label": "NASA Science: First Color Image From Viking Lander 1",
+            "url": "https://science.nasa.gov/resource/first-color-image-from-viking-lander-1/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1.6,
+            0.5,
+            3.2
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -0.6,
+            0
+          ],
+          "modelZoom": 1.2,
+          "lightAzimuthDeg": 30,
+          "lightIntensity": 1.4
+        },
+        "images": [
+          {
+            "nasaId": "PIA00563",
+            "src": "images/viking1-ch2.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA00563",
+            "alt": "Orange-red rocky ground on Mars stretching to a flat horizon under a pinkish-orange sky.",
+            "caption": "First color image from Viking Lander 1, July 21, 1976. Credit: NASA/JPL"
+          }
+        ]
+      },
+      {
+        "id": "viking1-ch3",
+        "title": "Digging for Life",
+        "narrative": "On July 28, 1976, my robot arm scooped up soil. It dropped the soil into my biology lab. Scientists wanted to know if anything in the dirt was alive. Four samples gave results that could be read as a weak sign of life. But my test for organic compounds came back negative. Those compounds are the building blocks of life as we know it. NASA reports no definitive evidence of living microorganisms. Scientists still talk about what my results mean.",
+        "callout": {
+          "text": "The combined data from the four soil samples could have been read as a weak positive for life, but the main test for organic compounds gave negative results.",
+          "citation": {
+            "label": "NASA Science: Viking 1 mission page",
+            "url": "https://science.nasa.gov/mission/viking-1/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            1.32,
+            0.55,
+            2.64
+          ],
+          "lookAt": [
+            0.3,
+            0.15,
+            0.4
+          ],
+          "modelRotation": [
+            0,
+            1.6,
+            0
+          ],
+          "modelZoom": 1.2,
+          "lightAzimuthDeg": 95,
+          "lightIntensity": 1.5
+        },
+        "images": [
+          {
+            "nasaId": "PIA00395",
+            "src": "images/viking1-ch3.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA00395",
+            "alt": "Black-and-white close-up of the collector head of Viking Lander 1's surface sampler arm, with Martian ground in the distance.",
+            "caption": "The collector head of Viking Lander 1's soil sampler arm. Credit: NASA/JPL"
+          }
+        ]
+      },
+      {
+        "id": "viking1-ch4",
+        "title": "Six Years of Mars Weather",
+        "narrative": "I was planned to work for about 90 days. I kept going for more than six years. I sent home weather reports, first daily and then weekly. My instruments felt it get as cold as minus 86 degrees Celsius before dawn. In the afternoon it warmed to about minus 33. In January 1982, NASA renamed me the Thomas Mutch Memorial Station, to honor the leader of the Viking imaging team. On November 11, 1982, a faulty command from Earth interrupted communications. No one could reach me again.",
+        "callout": {
+          "text": "Temperatures ranged from about minus 86 degrees Celsius before dawn to about minus 33 in the afternoon. The lander was renamed the Thomas Mutch Memorial Station in January 1982 and stopped operating November 11, 1982, after a faulty command from Earth.",
+          "citation": {
+            "label": "NASA Science: Viking 1 mission page",
+            "url": "https://science.nasa.gov/mission/viking-1/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1.78,
+            0.4,
+            3.56
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -1.1,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 200,
+          "lightIntensity": 0.8
+        },
+        "images": [
+          {
+            "nasaId": "PIA00392",
+            "src": "images/viking1-ch4.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA00392",
+            "alt": "Black-and-white view of the tall weather instrument boom on Viking Lander 1 rising above a rocky Martian plain with dunes and a pale sky.",
+            "caption": "The meteorology instrument boom on Viking Lander 1. Credit: NASA/JPL"
+          }
+        ]
+      },
+      {
+        "id": "viking1-ch5",
+        "title": "My Twin, Viking 2",
+        "narrative": "I was never alone for long. My twin, Viking 2, landed on September 3, 1976, at Utopia Planitia, far across the planet. In 1977 its camera photographed the first clear frost seen on Mars by a lander. Viking 2 ended communications in April 1980. After that, I was the only working spacecraft on the surface of Mars. I stayed that way for the next two and a half years.",
+        "callout": {
+          "text": "Viking 2 landed at Utopia Planitia on September 3, 1976, about 6,460 kilometers from Viking 1. Its lander mission ended in April 1980.",
+          "citation": {
+            "label": "NASA Science: Viking 2 mission page",
+            "url": "https://science.nasa.gov/mission/viking-2/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            0.13,
+            0.32,
+            3.98
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.4,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 140,
+          "lightIntensity": 0.9
+        },
+        "images": [
+          {
+            "nasaId": "PIA00573",
+            "src": "images/viking1-ch5.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA00573",
+            "alt": "Color view from the Viking 2 lander of a rocky orange Mars plain, with a lander arm, dish antenna and color calibration charts in front.",
+            "caption": "Frost at the Viking Lander 2 site on Utopia Planitia on Mars. Credit: NASA/JPL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "opportunity",
+    "journeyOrder": 4,
+    "name": "Opportunity",
+    "hardwareName": "Opportunity Rover",
+    "body": "mars",
+    "locationName": "Perseverance Valley",
+    "year": 2004,
+    "dates": "July 7, 2003 – February 13, 2019",
+    "finalStatus": "Last heard from June 10, 2018. Mission declared over February 13, 2019.",
+    "tooltip": "Opportunity · Perseverance Valley",
+    "description": "Opportunity landed in 2004 for a 90-day mission, then explored Mars for more than 14 years until a dust storm ended it.",
+    "landing": {
+      "lat": -2.3,
+      "lon": -5.5
+    },
+    "referenceLanding": {
+      "lat": -2.3,
+      "lon": -5.5,
+      "source": "https://science.nasa.gov/photojournal/opportunitys-final-traverse-map/ (Perseverance Valley, the final resting place on the Endeavour Crater rim, not the Eagle Crater landing site. NASA gives no numeric coordinates there, so the design baseline of about 2.3° S, 5.5° W is kept and unverified. NASA gives Eagle Crater as 1.95° S, 354.47° E.)"
+    },
+    "model": {
+      "path": "models/opportunity.glb",
+      "format": "glb",
+      "sourceUrl": "https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/Mars%20Exploration%20Rover%20-%20Opportunity%20(MER-B)",
+      "scale": 1,
+      "groundOffset": 0
+    },
+    "citations": [
+      {
+        "label": "NASA Science: Opportunity mission page",
+        "url": "https://science.nasa.gov/mission/mer-opportunity/"
+      },
+      {
+        "label": "NASA Science: Mars Exploration Rovers, Spirit and Opportunity",
+        "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+      },
+      {
+        "label": "NASA Science: Meridiani Planum",
+        "url": "https://science.nasa.gov/resource/meridiani-planum-2/"
+      },
+      {
+        "label": "NASA Astrobiology: Iron Blueberries",
+        "url": "https://astrobiology.nasa.gov/news/check-type-iron-blueberries/"
+      },
+      {
+        "label": "NASA Science: NASA's Opportunity Rover Mission on Mars Comes to End",
+        "url": "https://science.nasa.gov/missions/mars-exploration-rovers/nasas-opportunity-rover-mission-on-mars-comes-to-end/"
+      },
+      {
+        "label": "NASA: Opportunity's Final Traverse Map",
+        "url": "https://www.nasa.gov/image-article/opportunitys-final-traverse-map"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "opportunity-ch1",
+        "title": "Landing on a Wet Past",
+        "narrative": "I am Opportunity, a rover about the size of a golf cart. I landed on Mars on January 24, 2004. I bounced on airbags at least 26 times before I stopped inside a small crater called Eagle. Scientists picked Meridiani Planum for me because mineral deposits seen from space hinted that Mars once had water. My job was planned to last about 90 Martian days, called sols. That is about three Earth months. My twin, Spirit, had landed 20 days before me on the other side of the planet.",
+        "callout": {
+          "text": "Opportunity landed in Meridiani Planum on January 24, 2004 (Pacific time). Scientists targeted it because mineral deposits suggested that Mars had a wet history. The rover was designed to last 90 sols, about three Earth months.",
+          "citation": {
+            "label": "NASA Science: Opportunity mission page",
+            "url": "https://science.nasa.gov/mission/mer-opportunity/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            2.03,
+            0.39,
+            3.43
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.8,
+            0
+          ],
+          "modelZoom": 1,
+          "lightAzimuthDeg": 70,
+          "lightIntensity": 1.2
+        },
+        "images": [
+          {
+            "nasaId": "PIA21494",
+            "src": "images/opportunity-ch1.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA21494",
+            "alt": "Orbital view of flat tan Martian plain with small craters. Eagle Crater, with Opportunity's landing platform inside, is at upper right.",
+            "caption": "Eagle Crater, Opportunity's landing site, seen from orbit in 2017. Credit: NASA/JPL-Caltech/Univ. of Arizona"
+          }
+        ]
+      },
+      {
+        "id": "opportunity-ch2",
+        "title": "Blueberries on Mars",
+        "narrative": "Soon I found tiny gray spheres in the rocks and on the ground. Each was about the size of a BB. Scientists nicknamed them blueberries. One of my instruments showed they contain hematite, an iron mineral that often forms in water. In March 2004, the science team shared that my rocks showed Meridiani had been wet long ago. Later, my findings and Spirit's together confirmed that water was long standing on the surface of Mars in ancient times.",
+        "callout": {
+          "text": "On the ground, Opportunity found hematite inside BB-sized spheres nicknamed blueberries. By studying the rock record, Spirit and Opportunity confirmed that water was long standing on the surface of Mars in ancient times.",
+          "citation": {
+            "label": "NASA Science: Meridiani Planum",
+            "url": "https://science.nasa.gov/resource/meridiani-planum-2/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1.4,
+            0.5,
+            2.6
+          ],
+          "lookAt": [
+            0.2,
+            0.15,
+            0.3
+          ],
+          "modelRotation": [
+            0,
+            -0.7,
+            0
+          ],
+          "modelZoom": 1.2,
+          "lightAzimuthDeg": 40,
+          "lightIntensity": 1.4
+        },
+        "images": [
+          {
+            "nasaId": "PIA05273",
+            "src": "images/opportunity-ch2.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA05273",
+            "alt": "Black-and-white close-up of many small round spheres, the blueberries, lying in fine Martian soil.",
+            "caption": "Blueberry-shaped spheres in Martian soil at Meridiani Planum, 2004. Credit: NASA/JPL/Cornell/USGS"
+          }
+        ]
+      },
+      {
+        "id": "opportunity-ch3",
+        "title": "The Long Drive",
+        "narrative": "I was built to last 90 sols. I kept rolling for more than 14 years, about 60 times longer than planned. In 2013, NASA announced that I had passed the distance record of the Apollo 17 lunar rover. In 2015, I became the first to drive a marathon, 42.195 kilometers, on another world. In all, I drove 45.16 kilometers (28.06 miles). My trip ended in Perseverance Valley, on the rim of Endeavour Crater. My distance stood as the off-Earth roving record until NASA's Perseverance rover passed it on October 11, 2026.",
+        "callout": {
+          "text": "Opportunity drove 28.06 miles (45.16 kilometers). That was the off-Earth roving record until NASA's Perseverance rover passed it on October 11, 2026. Opportunity lasted about 60 times longer than its planned lifetime.",
+          "citation": {
+            "label": "NASA Science: Mars Exploration Rovers, Spirit and Opportunity",
+            "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            0.31,
+            0.38,
+            3.97
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            2.2,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 120,
+          "lightIntensity": 1.1
+        },
+        "images": [
+          {
+            "nasaId": "PIA19158",
+            "src": "images/opportunity-ch3.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA19158",
+            "alt": "Infographic of Opportunity's marathon journey. A yellow line traces its path from Eagle Crater to Endeavour Crater, with the rover at right.",
+            "caption": "Opportunity's marathon journey of 42.195 km, passed in 2015. Credit: NASA/JPL-Caltech/Univ. of Arizona"
+          }
+        ]
+      },
+      {
+        "id": "opportunity-ch4",
+        "title": "When the Sky Went Dark",
+        "narrative": "In June 2018, a huge dust storm spread across Mars. Dust blocked the sunlight that my solar panels need. I was heading down into Perseverance Valley. My last signal reached Earth on June 10, 2018. Engineers sent more than a thousand commands to ask me to call home. I never answered. On February 13, 2019, NASA announced that my mission was over. After that, a journalist named Jacob Margolis wrote a poetic paraphrase of my last data: \"My battery is low and it's getting dark.\" Those are his words, not mine and not NASA's. I only sent data.",
+        "callout": {
+          "text": "Opportunity stopped communicating after a Mars-wide dust storm in June 2018. Its last signal came June 10, 2018. After more than a thousand commands, NASA declared the mission complete on February 13, 2019.",
+          "citation": {
+            "label": "NASA Science: NASA's Opportunity Rover Mission on Mars Comes to End",
+            "url": "https://science.nasa.gov/missions/mars-exploration-rovers/nasas-opportunity-rover-mission-on-mars-comes-to-end/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1.97,
+            0.41,
+            3.45
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -1.2,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 210,
+          "lightIntensity": 0.7
+        },
+        "useVariationTrack": true,
+        "images": [
+          {
+            "nasaId": "PIA23178",
+            "src": "images/opportunity-ch4.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA23178",
+            "alt": "Gray orbital map of Endeavour Crater with a yellow line showing Opportunity's route from Eagle Crater to Perseverance Valley.",
+            "caption": "Opportunity's final traverse map, ending June 10, 2018. Credit: NASA/JPL-Caltech/MSSS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "insight",
+    "journeyOrder": 5,
+    "name": "InSight",
+    "hardwareName": "InSight Lander",
+    "body": "mars",
+    "locationName": "Elysium Planitia",
+    "year": 2018,
+    "dates": "May 5, 2018 – December 21, 2022",
+    "finalStatus": "Last contact December 15, 2022. Mission retired December 21, 2022.",
+    "tooltip": "InSight · Elysium Planitia",
+    "description": "InSight landed in 2018 and listened to more than 1,300 marsquakes before dust on its solar panels ended the mission.",
+    "landing": {
+      "lat": 4.5,
+      "lon": 135.62
+    },
+    "referenceLanding": {
+      "lat": 4.5,
+      "lon": 135.62,
+      "source": "https://mars.nasa.gov/insight/faq/ (NASA gives the targeted landing region center as about 4.5° N, 135.9° E. The design baseline of 4.50° N, 135.62° E for the lander itself is kept; it is unverified on NASA pages and within 20 km of the NASA figure.)"
+    },
+    "model": {
+      "path": "models/insight.glb",
+      "format": "glb",
+      "sourceUrl": "https://github.com/nasa/NASA-3D-Resources/tree/master/3D%20Models/InSight%20Cruise%20Lander",
+      "scale": 1,
+      "groundOffset": 0
+    },
+    "citations": [
+      {
+        "label": "NASA Science: InSight mission page",
+        "url": "https://science.nasa.gov/mission/insight/"
+      },
+      {
+        "label": "NASA Science: InSight Science Highlights",
+        "url": "https://science.nasa.gov/mission/insight/science-highlights/"
+      },
+      {
+        "label": "NASA Science: NASA's InSight Detects First Likely 'Quake' on Mars",
+        "url": "https://science.nasa.gov/missions/insight/nasas-insight-detects-first-likely-quake-on-mars/"
+      },
+      {
+        "label": "NASA: NASA InSight's 'Mole' Ends Its Journey on Mars",
+        "url": "https://www.nasa.gov/missions/insight/nasa-insights-mole-ends-its-journey-on-mars/"
+      },
+      {
+        "label": "NASA: NASA's InSight Still Hunting Marsquakes as Power Levels Diminish",
+        "url": "https://www.nasa.gov/missions/insight/nasas-insight-still-hunting-marsquakes-as-power-levels-diminish/"
+      },
+      {
+        "label": "NASA: NASA Retires InSight Mars Lander Mission After Years of Science",
+        "url": "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/"
+      },
+      {
+        "label": "NASA: NASA Mars Orbiter Spots Retired InSight Lander to Study Dust Movement",
+        "url": "https://www.nasa.gov/missions/insight/nasa-mars-orbiter-spots-retired-insight-lander-to-study-dust-movement"
+      }
+    ],
+    "chapters": [
+      {
+        "id": "insight-ch1",
+        "title": "Listening on a Quiet Plain",
+        "narrative": "I am InSight, a lander built to listen to the inside of Mars. I touched down on November 26, 2018, on a flat, smooth plain called Elysium Planitia. Scientists picked this spot because it was safe, not because it was exciting. I was not here to study the surface. My robotic arm lifted a seismometer from my deck and set it on the ground. It was the first seismometer ever placed on the surface of Mars. On April 6, 2019, my 128th Martian day, it recorded a faint shake that scientists called the first likely marsquake.",
+        "callout": {
+          "text": "InSight landed on November 26, 2018, in Elysium Planitia. Its seismometer recorded the first likely marsquake on April 6, 2019, the lander's 128th Martian day. It was the first trembling that appeared to come from inside the planet.",
+          "citation": {
+            "label": "NASA Science: NASA's InSight Detects First Likely 'Quake' on Mars",
+            "url": "https://science.nasa.gov/missions/insight/nasas-insight-detects-first-likely-quake-on-mars/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            1.84,
+            0.38,
+            3.53
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            0.6,
+            0
+          ],
+          "modelZoom": 1,
+          "lightAzimuthDeg": 60,
+          "lightIntensity": 1.2
+        },
+        "images": [
+          {
+            "nasaId": "PIA22956",
+            "src": "images/insight-ch1.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA22956",
+            "alt": "Robotic arm of the InSight lander lowering the copper-colored seismometer onto reddish Martian ground at dusk.",
+            "caption": "InSight places its seismometer on Mars, Dec. 19, 2018. Credit: NASA/JPL-Caltech"
+          }
+        ]
+      },
+      {
+        "id": "insight-ch2",
+        "title": "The Mole That Could Not Dig",
+        "narrative": "I also carried a self-hammering spike nicknamed the mole. It was built to dig about 5 meters down and trail a tether with heat sensors, so scientists could measure heat flowing out of Mars. The mole was designed for loose, sandy soil. The soil around me was clumpy, so the mole could not get the friction it needed. For almost two years, engineers tried new ideas with my robotic arm and scoop. On January 9, 2021, the mole hammered 500 more times with no progress. In January 2021, NASA called an end to the digging. The effort still taught scientists about Martian soil.",
+        "callout": {
+          "text": "The mole was meant to dig about 16 feet (5 meters) down, but Mars's clumpy soil gave it too little friction. It ended up just under the surface. It still gathered useful data on the soil's physical and thermal properties.",
+          "citation": {
+            "label": "NASA: NASA Retires InSight Mars Lander Mission After Years of Science",
+            "url": "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1.2,
+            0.5,
+            2.8
+          ],
+          "lookAt": [
+            0.1,
+            0.15,
+            0.2
+          ],
+          "modelRotation": [
+            0,
+            -0.6,
+            0
+          ],
+          "modelZoom": 1.2,
+          "lightAzimuthDeg": 35,
+          "lightIntensity": 1.4
+        },
+        "images": [
+          {
+            "nasaId": "PIA23896",
+            "src": "images/insight-ch2.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA23896",
+            "alt": "InSight's scoop pressed into reddish soil beside the robotic arm, holding down the mole, a self-hammering heat probe.",
+            "caption": "InSight's scoop holds the mole in place, June 2020. Credit: NASA/JPL-Caltech"
+          }
+        ]
+      },
+      {
+        "id": "insight-ch3",
+        "title": "Marsquakes and a Molten Core",
+        "narrative": "While the mole struggled, my seismometer kept listening. It picked up more than 1,300 marsquakes. Some came from rock cracking deep inside Mars, and some from space rocks hitting the surface. The biggest came in May 2022, with an estimated magnitude of 5. Its shaking lasted at least six hours. Scientists studied how the waves changed as they traveled. They learned that the crust under me is about 25 to 40 kilometers thick. They also learned that Mars has a liquid core about 1,800 kilometers in radius. It was larger than expected.",
+        "callout": {
+          "text": "InSight's seismometer detected over 1,300 marsquakes. The largest, in May 2022, had an estimated magnitude of 5 and rang for at least six hours. The data showed that Mars's core is molten, with a radius of about 1,800 kilometers.",
+          "citation": {
+            "label": "NASA Science: InSight Science Highlights",
+            "url": "https://science.nasa.gov/mission/insight/science-highlights/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            0.22,
+            0.37,
+            3.98
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            2,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 110,
+          "lightIntensity": 1.1
+        },
+        "images": [
+          {
+            "nasaId": "PIA25282",
+            "src": "images/insight-ch3.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA25282",
+            "alt": "Illustration titled Inside Mars: cutaway blocks of crust, mantle and core with seismic waves, InSight on the surface, and a meteoroid impact.",
+            "caption": "How InSight uses marsquakes to study Mars' interior (illustration). Credit: NASA/JPL-Caltech"
+          }
+        ]
+      },
+      {
+        "id": "insight-ch4",
+        "title": "Dust on My Wings",
+        "narrative": "Dust slowly covered my solar panels. When I landed, they made about 5,000 watt-hours of energy each Martian day. By 2022 they made about 500. My team used my arm in a clever way. On windy days, they sprinkled dirt from my scoop onto the panels so the falling grains would sweep dust away. That helped my seismometer work longer. In the end it was not enough. My last contact with Earth came on December 15, 2022. After two missed calls, NASA retired the mission on December 21, 2022.",
+        "callout": {
+          "text": "Dust on InSight's solar panels cut its energy from about 5,000 watt-hours per sol at landing to about 500 in 2022. The last contact with Earth was December 15, 2022. NASA retired the mission on December 21, 2022.",
+          "citation": {
+            "label": "NASA: NASA Retires InSight Mars Lander Mission After Years of Science",
+            "url": "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            -1.92,
+            0.44,
+            3.48
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            -1.1,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 205,
+          "lightIntensity": 0.7
+        },
+        "images": [
+          {
+            "nasaId": "PIA25286",
+            "src": "images/insight-ch4.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA25286",
+            "alt": "A solar panel on the InSight lander covered in a thick layer of reddish dust, with the robotic arm above it.",
+            "caption": "InSight's dust-covered solar panel, April 24, 2022 (sol 1,211). Credit: NASA/JPL-Caltech"
+          }
+        ]
+      },
+      {
+        "id": "insight-ch5",
+        "title": "Still Teaching From Orbit",
+        "narrative": "I no longer send signals, but my work goes on. Scientists will study my seismic data for decades. In 2024, NASA's Mars Reconnaissance Orbiter took a new picture of me from space. My solar panels now look reddish-brown, like the ground around them. Scientists use images like this to track how dust settles and blows away on Mars. The dark marks my landing rockets left are slowly fading too. This helps them learn about wind, dust and the age of craters. NASA planned to stop listening for me at the end of 2024.",
+        "callout": {
+          "text": "On October 23, 2024, NASA's Mars Reconnaissance Orbiter imaged the retired InSight lander. Its solar panels had turned the same reddish-brown as the surrounding ground. Scientists use the images to study how dust moves on Mars.",
+          "citation": {
+            "label": "NASA: NASA Mars Orbiter Spots Retired InSight Lander to Study Dust Movement",
+            "url": "https://www.nasa.gov/missions/insight/nasa-mars-orbiter-spots-retired-insight-lander-to-study-dust-movement"
+          }
+        },
+        "keyframe": {
+          "cameraOffset": [
+            1.35,
+            0.37,
+            3.75
+          ],
+          "lookAt": [
+            0,
+            0.15,
+            0
+          ],
+          "modelRotation": [
+            0,
+            1.6,
+            0
+          ],
+          "modelZoom": 0.9,
+          "lightAzimuthDeg": 150,
+          "lightIntensity": 1
+        },
+        "images": [
+          {
+            "nasaId": "PIA26515",
+            "src": "images/insight-ch5.webp",
+            "sourceUrl": "https://images.nasa.gov/details/PIA26515",
+            "alt": "Orbital view of brown Martian terrain with small craters. The retired InSight lander is a tiny dark speck near the center.",
+            "caption": "The retired InSight lander seen by MRO's HiRISE camera. Credit: NASA/JPL-Caltech/University of Arizona"
+          }
+        ]
+      }
+    ]
+  }
+]

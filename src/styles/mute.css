@@ -1,0 +1,68 @@
+/* Audio_Controller mute toggle: Requirements 11.6, 13.6 */
+.audio-controller {
+  position: fixed;
+  top: calc(1rem + env(safe-area-inset-top, 0px));
+  right: calc(1rem + env(safe-area-inset-right, 0px));
+  z-index: 1000;
+  display: flex;
+}
+
+.audio-controller__button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-button, #FFFFFF);
+  cursor: pointer;
+  transition: transform var(--transition-button, 180ms) ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+  .audio-controller__button:hover {
+    transform: scale(var(--hover-scale, 1.2));
+  }
+}
+.audio-controller__button:focus-visible {
+  transform: scale(var(--hover-scale, 1.2));
+}
+
+.audio-controller__button:focus-visible {
+  outline: var(--focus-outline, 2px solid #A8D8EA);
+  outline-offset: var(--focus-offset, 3px);
+}
+
+.audio-controller__icon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+
+/* Sound waves are hidden while muted; the slash is hidden while unmuted. */
+.audio-controller__button[aria-pressed='true'] .audio-controller__waves,
+.audio-controller__button[aria-pressed='false'] .audio-controller__slash {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .audio-controller__button {
+    transition: none;
+  }
+  .audio-controller__button:hover,
+  .audio-controller__button:focus-visible {
+    transform: none;
+  }
+}

@@ -1,0 +1,35 @@
+/* Toasts: Requirements 4.6, 5.6. Bottom-centre so the bottom-right controls stay uncovered. */
+.toast-region {
+  position: fixed;
+  left: 50%;
+  bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  width: max-content;
+  max-width: min(32rem, calc(100vw - 2rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  z-index: 1000;
+  pointer-events: none;
+}
+/* On narrow screens lift toasts above the bottom-right control row */
+@media (max-width: 767.98px) {
+  .toast-region {
+    bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+  }
+}
+
+.toast {
+  box-sizing: border-box;
+  padding: 0.75rem 1.25rem;
+  background: var(--color-overlay);
+  color: var(--color-body);
+  border: 1px solid var(--color-callout);
+  border-radius: 6px;
+  font-family: var(--font-body);
+  font-size: 1rem; /* 16px minimum */
+  line-height: var(--line-height-body);
+  text-align: center;
+  pointer-events: none;
+}

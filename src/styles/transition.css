@@ -1,0 +1,54 @@
+/* Journey intro and mission transition cards: Requirements 10.2, 10.6. */
+.transition-card {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  height: 100dvh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: calc(2rem + env(safe-area-inset-top, 0px)) calc(1rem + env(safe-area-inset-right, 0px)) calc(2rem + env(safe-area-inset-bottom, 0px)) calc(1rem + env(safe-area-inset-left, 0px));
+  overflow-wrap: break-word;
+  text-align: center;
+  background: var(--color-overlay);
+  color: var(--color-body);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: var(--line-height-body);
+  z-index: 900;
+  pointer-events: none;
+  animation: transition-card-in 200ms ease-out;
+}
+
+.transition-card p {
+  margin: 0;
+}
+
+.transition-card__span,
+.transition-card__name {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--color-heading, #ffffff);
+}
+
+.transition-card__hardware {
+  color: var(--color-callout);
+}
+
+.transition-card__year {
+  font-size: 1.125rem;
+}
+
+@keyframes transition-card-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .transition-card {
+    animation: none;
+  }
+}

@@ -1,0 +1,2450 @@
+{
+  "pbtResults": {
+    "8.2 Write property test for the 60 fps frame cap": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638243582
+    },
+    "2.2 Write property test for state machine totality and invariants": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638244348
+    },
+    "4.2 Write property test for latitude/longitude round trip": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638254660
+    },
+    "5.2 Write property test for quiz session content preservation": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638267980
+    },
+    "2.3 Write property test for mission selection and retargeting": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638523155
+    },
+    "3.3 Write property test for active chapter selection": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638549855
+    },
+    "4.3 Write property test for great-circle distance": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638637763
+    },
+    "2.4 Write property test for Return to Space": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638642224
+    },
+    "2.5 Write property test for quiz open and close round trip": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638643234
+    },
+    "3.4 Write property test for overall progress and chapter label": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638662920
+    },
+    "7.4 Write property test for text and focus colour contrast": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638666366
+    },
+    "2.7 Write property test for Exit Journey and restart": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638757309
+    },
+    "8.4 Write property test for the quality controller": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638759969
+    },
+    "13.3 Write property test for the zoom clamp": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638851800
+    },
+    "13.2 Write property test for easing": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638855887
+    },
+    "11.2 Write property test for starfield quadrant coverage": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638856933
+    },
+    "14.2 Write property test for the marker screen size bound": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638960372
+    },
+    "17.2 Write property test for marker accuracy": {
+      "status": "passed",
+      "lastRunTimestamp": 1794638977677
+    },
+    "25.4 Write property test for audio track resolution": {
+      "status": "passed",
+      "lastRunTimestamp": 1794639432692
+    },
+    "25.5 Write property test for muted silence": {
+      "status": "passed",
+      "lastRunTimestamp": 1794639433698
+    },
+    "25.6 Write property test for quiz audio context": {
+      "status": "passed",
+      "lastRunTimestamp": 1794639433990
+    },
+    "18.15 Write property test for chapter image sources": {
+      "status": "passed",
+      "lastRunTimestamp": 1794643662466
+    },
+    "18.14 Write property test for the NASA citation domain": {
+      "status": "passed",
+      "lastRunTimestamp": 1794643685357
+    }
+  },
+  "executionHistory": {
+    "1.1 Initialise the Vite project": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635118377
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635156232
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635319620
+      }
+    ],
+    "1.2 Create style tokens and base styles": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635119942
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635328374
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635524137
+      }
+    ],
+    "1.3 Create data skeletons and strings module": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635120081
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635328768
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635524646
+      }
+    ],
+    "2.1 Implement `src/core/stateMachine.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635120445
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635329015
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635525297
+      }
+    ],
+    "3.1 Implement `src/core/scrollMath.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635120553
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635329905
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635526013
+      }
+    ],
+    "4.1 Implement `src/core/geo.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635120896
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635330270
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635526423
+      }
+    ],
+    "5.1 Implement `src/core/quizLogic.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635121087
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635543048
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635644621
+      }
+    ],
+    "6.1 Implement `src/core/journeyPlan.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635121334
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635832892
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635943623
+      }
+    ],
+    "7.1 Implement `src/core/layoutSelector.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635121432
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635543167
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635645301
+      }
+    ],
+    "7.3 Implement `src/core/contrast.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635121528
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635543299
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635646314
+      }
+    ],
+    "8.1 Implement `src/engine/frameLimiter.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635121698
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635543487
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635646677
+      }
+    ],
+    "8.3 Implement `src/engine/qualityController.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635121800
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635543893
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635647245
+      }
+    ],
+    "9. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635121938
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685329059
+      }
+    ],
+    "10.1 Implement `webglSupport.js` and `webglFallback.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635122070
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635833229
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635943871
+      }
+    ],
+    "10.2 Implement `src/engine/sceneManager.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635122184
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635955612
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636232544
+      }
+    ],
+    "10.3 Implement the `src/main.js` bootstrap": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635122366
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636246980
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636472338
+      }
+    ],
+    "11.1 Implement `src/engine/starfield.js` and add it to the scene": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635122466
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636487225
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636764041
+      }
+    ],
+    "12.1 Prepare Moon and Mars textures": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635122566
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635687306
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635819649
+      }
+    ],
+    "12.2 Implement `src/engine/celestialBodies.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635122665
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636779034
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636983746
+      }
+    ],
+    "13.1 Implement `src/engine/cameraRig.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635122765
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635833642
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635944052
+      }
+    ],
+    "14.1 Implement `src/engine/markerManager.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635122944
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636993927
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637240349
+      }
+    ],
+    "14.4 Implement `src/ui/openingOverlay.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123033
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635833916
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635944992
+      }
+    ],
+    "14.5 Wire the opening scene in `main.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123131
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637248666
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637567173
+      }
+    ],
+    "15. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123228
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685329353
+      }
+    ],
+    "16.1 Implement `src/core/dataValidator.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123327
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635834217
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635945342
+      }
+    ],
+    "16.3 Add `scripts/validate-data.js` and `scripts/check-assets.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123429
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635955742
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636232826
+      }
+    ],
+    "17.1 Record landing coordinates from NASA pages": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123519
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635955871
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636233235
+      }
+    ],
+    "18.1 Write Surveyor 3 chapters, callouts and keyframes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123616
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636247167
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636472790
+      }
+    ],
+    "18.2 Select Surveyor 3 chapter images": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123714
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636487474
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636765214
+      }
+    ],
+    "18.3 Write Apollo 11 chapters, callouts and keyframes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123808
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636779455
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636984128
+      }
+    ],
+    "18.4 Select Apollo 11 chapter images": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635123900
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636994678
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637240515
+      }
+    ],
+    "18.5 Write Apollo 17 chapters, callouts and keyframes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124000
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637248884
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637567539
+      }
+    ],
+    "18.6 Select Apollo 17 chapter images": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124091
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637579142
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637827246
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638086041
+      }
+    ],
+    "18.7 Write Viking 1 chapters, callouts and keyframes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124183
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639275595
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639714679
+      }
+    ],
+    "18.8 Select Viking 1 chapter images": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124282
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639988750
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641579135
+      }
+    ],
+    "18.9 Write Opportunity chapters, callouts and keyframes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124384
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641587406
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641866405
+      }
+    ],
+    "18.10 Select Opportunity chapter images": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124483
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641872050
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794642152044
+      }
+    ],
+    "18.11 Write InSight chapters, callouts and keyframes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124586
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794642160243
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794642898987
+      }
+    ],
+    "18.12 Select InSight chapter images": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124679
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794642905016
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643153395
+      }
+    ],
+    "18.17 Add `scripts/reading-level.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124780
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643163345
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643579980
+      }
+    ],
+    "18.18 Wire the validator into the load path in `main.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124866
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643163531
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643580187
+      }
+    ],
+    "19. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635124956
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685329587
+      }
+    ],
+    "20.1 Implement `src/ui/toast.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635125047
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637579367
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637832191
+      }
+    ],
+    "20.2 Implement `src/engine/hardwareModelManager.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635125147
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639041057
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639261921
+      }
+    ],
+    "20.7 Source and prepare the six NASA 3D models": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635125334
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643590960
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644186830
+      }
+    ],
+    "20.8 Add model inspection controls": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635125470
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639989055
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641579928
+      }
+    ],
+    "20.9 Wire the fly-in to the model in `main.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635125586
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644195600
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644648415
+      }
+    ],
+    "21.1 Implement `src/ui/storyColumn.js` rendering and `src/styles/story.css`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635125703
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637579526
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637832949
+      }
+    ],
+    "21.3 Add reveal animations and image fallback": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635125809
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639989416
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641580505
+      }
+    ],
+    "21.4 Add scroll handling in `storyColumn.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635125898
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641588227
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641867229
+      }
+    ],
+    "21.5 Implement `src/ui/progressIndicators.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126000
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637579987
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637833509
+      }
+    ],
+    "21.6 Add split layout to `sceneManager.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126101
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639041446
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639262700
+      }
+    ],
+    "21.7 Implement `src/ui/persistentControls.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126212
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639042050
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639263490
+      }
+    ],
+    "21.9 Wire the story in `main.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126310
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644695043
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794645038475
+      }
+    ],
+    "21.10 Tune per-chapter keyframes in the browser": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126402
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647293147
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794652076948
+      }
+    ],
+    "22.1 Implement `src/ui/summaryView.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126498
+      },
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637580518
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637834079
+      }
+    ],
+    "22.3 Write Surveyor 3 quiz questions": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126588
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639274392
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639711645
+      }
+    ],
+    "22.4 Write Apollo 11 quiz questions": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126685
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639728382
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639895694
+      }
+    ],
+    "22.5 Write Apollo 17 quiz questions": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126801
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639989949
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641581190
+      }
+    ],
+    "22.6 Write Viking 1 quiz questions": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635126903
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641588780
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641867779
+      }
+    ],
+    "22.7 Write Opportunity quiz questions": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127018
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794641872741
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794642152714
+      }
+    ],
+    "22.8 Write InSight quiz questions": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127120
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794642905301
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643153747
+      }
+    ],
+    "22.10 Implement `src/ui/quizDialog.js` and `src/styles/dialog.css`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127228
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639042781
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639264341
+      }
+    ],
+    "22.12 Wire summary and quiz in `main.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127330
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794645082579
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794645573132
+      }
+    ],
+    "23.1 Implement `src/ui/transitionCards.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127426
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639043526
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639265002
+      }
+    ],
+    "23.2 Add Journey controls and indicator": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127527
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639728550
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639896265
+      }
+    ],
+    "23.3 Implement `src/ui/closingScreen.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127627
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639274545
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639712275
+      }
+    ],
+    "23.5 Wire Full Journey in `main.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127746
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794645635472
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794646018173
+      }
+    ],
+    "24. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635127967
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685329991
+      }
+    ],
+    "25.1 Source audio assets and licence notes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635128083
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639274828
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639712985
+      }
+    ],
+    "25.2 Write `src/data/audio.json`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635128218
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639728763
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639894327
+      }
+    ],
+    "25.3 Implement `src/audio/audioEngine.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635128323
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639275068
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639713825
+      }
+    ],
+    "25.8 Implement `src/audio/uiSounds.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635128418
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639729532
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639981430
+      }
+    ],
+    "25.9 Implement `src/audio/audioController.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635128515
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639730114
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639894850
+      }
+    ],
+    "25.11 Wire audio in `main.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635128622
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794646069070
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647204216
+      }
+    ],
+    "26.1 Add responsive layout CSS": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635128761
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794652164021
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794678909660
+      }
+    ],
+    "26.2 Add touch press feedback and marker labels": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635128880
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794652164292
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794678909968
+      }
+    ],
+    "26.3 Add touch targets and gesture arbitration": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635129021
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794678918461
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794680127435
+      }
+    ],
+    "26.4 Add the narrow-screen quiz layout": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635129140
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794652164468
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794678910840
+      }
+    ],
+    "26.5 Wire adaptive quality in `sceneManager.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635129280
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794652164777
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794678911449
+      }
+    ],
+    "26.6 Handle resize and layout changes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635129416
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794678919102
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794680127895
+      }
+    ],
+    "27. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635129560
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685330174
+      }
+    ],
+    "28.1 Apply accessibility markup and behaviour": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635129699
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794680193247
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794682365505
+      }
+    ],
+    "28.3 Apply performance and build settings": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635129843
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794682420702
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794684528009
+      }
+    ],
+    "29.1 Review wiring and error handling in `main.js`": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635129981
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794684589519
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685257040
+      }
+    ],
+    "29.2 Add the build pipeline": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635130113
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794684590108
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685257522
+      }
+    ],
+    "30. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635130270
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794687107671
+      }
+    ],
+    "31.1 Fact-check every narrative claim": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635130435
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685331456
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794687106859
+      }
+    ],
+    "31.2 Compare each 3D model with NASA reference photos": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635130618
+      }
+    ],
+    "31.3 Measure performance": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635131173
+      }
+    ],
+    "31.4 Run accessibility audits and manual passes": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635131641
+      }
+    ],
+    "31.5 Test on real phones": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635131781
+      }
+    ],
+    "31.6 Check all licences and credits": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635131914
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685332200
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794687107345
+      }
+    ],
+    "1. Project scaffold, tokens and data skeletons": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635524754
+      }
+    ],
+    "2. State machine (core)": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635525405
+      }
+    ],
+    "3. Scroll maths (core)": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635526142
+      }
+    ],
+    "4. Geo maths (core)": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635526585
+      }
+    ],
+    "5. Quiz logic (core)": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635644728
+      }
+    ],
+    "7. Layout selector and contrast helper (core)": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635646437
+      }
+    ],
+    "8. Frame limiter and quality controller (core)": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635647413
+      }
+    ],
+    "6. Journey plan (core)": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635943722
+      }
+    ],
+    "13. Camera rig": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794635944172
+      }
+    ],
+    "16. Data validator": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636232957
+      }
+    ],
+    "17. Landing coordinates": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636233382
+      }
+    ],
+    "10. Scene bootstrap and WebGL fallback": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636472559
+      }
+    ],
+    "11. Starfield": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636764481
+      }
+    ],
+    "12. Celestial bodies and textures": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794636983877
+      }
+    ],
+    "14. Mission markers and opening overlay": [
+      {
+        "executionId": "dfa32f1b-b26e-4fb6-8ab2-5963a942b7e6",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794637567300
+      }
+    ],
+    "1.4 Write example tests for style tokens": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638093940
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638807418
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638901162
+      }
+    ],
+    "2.2 Write property test for state machine totality and invariants": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638094113
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638118371
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638305627
+      }
+    ],
+    "2.3 Write property test for mission selection and retargeting": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638094283
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638483269
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638589355
+      }
+    ],
+    "2.4 Write property test for Return to Space": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638094566
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638595663
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638702549
+      }
+    ],
+    "2.5 Write property test for quiz open and close round trip": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638095359
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638596699
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638700424
+      }
+    ],
+    "2.6 Write property test for Finish the Journey": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638095916
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638708767
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638800243
+      }
+    ],
+    "2.7 Write property test for Exit Journey and restart": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638096701
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638709611
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638800988
+      }
+    ],
+    "3.2 Write property test for scroll progress normalisation": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638097219
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638118599
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638306194
+      }
+    ],
+    "3.3 Write property test for active chapter selection": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638098017
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638483448
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638587968
+      }
+    ],
+    "3.4 Write property test for overall progress and chapter label": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638098672
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638597373
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638702009
+      }
+    ],
+    "3.5 Write unit tests for `interpolateKeyframe` and `isPastLastChapter`": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638099361
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638710347
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638801599
+      }
+    ],
+    "4.2 Write property test for latitude/longitude round trip": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638099915
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638118744
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638306954
+      }
+    ],
+    "4.3 Write property test for great-circle distance": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638100716
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638598297
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638701290
+      }
+    ],
+    "5.2 Write property test for quiz session content preservation": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638101263
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638119315
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638307754
+      }
+    ],
+    "5.3 Write property test for quiz scoring": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638102030
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638483641
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638588785
+      }
+    ],
+    "6.2 Write property test for journey order and continue labels": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638102831
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638484128
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638589978
+      }
+    ],
+    "6.3 Write property test for journey progress label": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638103360
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638710896
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638799538
+      }
+    ],
+    "7.2 Write property test for the layout breakpoint": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638104241
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638484744
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638587332
+      }
+    ],
+    "7.4 Write property test for text and focus colour contrast": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638104704
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638598764
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638703106
+      }
+    ],
+    "8.2 Write property test for the 60 fps frame cap": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638105519
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638119859
+      },
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638308169
+      }
+    ],
+    "8.4 Write property test for the quality controller": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638106315
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638711669
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638798864
+      }
+    ],
+    "10.4 Write example test for the WebGL fallback": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638106811
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638808226
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638900750
+      }
+    ],
+    "11.2 Write property test for starfield quadrant coverage": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638107627
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638809086
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638900479
+      }
+    ],
+    "13.2 Write property test for easing": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638108417
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638809831
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638902503
+      }
+    ],
+    "13.3 Write property test for the zoom clamp": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638108964
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638810355
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638901926
+      }
+    ],
+    "14.2 Write property test for the marker screen size bound": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638109767
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638908176
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639031188
+      }
+    ],
+    "14.3 Write unit test for the marker error path": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638110562
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638908970
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639032070
+      }
+    ],
+    "16.2 Write property test for asset budgets": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638111112
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638909871
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639032897
+      }
+    ],
+    "17.2 Write property test for marker accuracy": [
+      {
+        "executionId": "9921d975-ebfb-4c2f-8fd7-71799abc1614",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638111760
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794638910263
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794639033815
+      }
+    ],
+    "18. Mission content (chapters, callouts, keyframes, images)": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643580296
+      }
+    ],
+    "18.13 Write property test for mission data completeness": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643590023
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644184888
+      }
+    ],
+    "18.14 Write property test for the NASA citation domain": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643590282
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644185323
+      }
+    ],
+    "18.15 Write property test for chapter image sources": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643590490
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644186027
+      }
+    ],
+    "18.16 Write narrative smoke tests": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794643590717
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644186286
+      }
+    ],
+    "20. Hardware models": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794644648862
+      }
+    ],
+    "22. Summary and quiz": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794645573492
+      }
+    ],
+    "23. Full Journey mode and closing screen": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794646018449
+      }
+    ],
+    "25. Audio": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647204660
+      }
+    ],
+    "20.3 Write property test for model fit": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647268812
+      }
+    ],
+    "20.4 Write property test for model zoom clamp": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647269133
+      }
+    ],
+    "20.5 Write property test for unload": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647269374
+      }
+    ],
+    "20.6 Write unit test for model load failure": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647269678
+      }
+    ],
+    "21.8 Write unit tests for persistent button behaviour": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647269847
+      }
+    ],
+    "22.9 Write unit tests for quiz data validation": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647270765
+      }
+    ],
+    "22.11 Write unit tests for the quiz dialog": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647271312
+      }
+    ],
+    "23.4 Write unit tests for transition cards": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647272135
+      }
+    ],
+    "25.4 Write property test for audio track resolution": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647272914
+      }
+    ],
+    "25.5 Write property test for muted silence": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647273697
+      }
+    ],
+    "25.6 Write property test for quiz audio context": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647274527
+      }
+    ],
+    "25.7 Write property test for audio licensing data": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647275315
+      }
+    ],
+    "25.10 Write unit tests for the audio engine with a mocked `AudioContext`": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794647276021
+      }
+    ],
+    "21. Story column and scroll mapping": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794652077220
+      }
+    ],
+    "26. Responsive and mobile": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794680128349
+      }
+    ],
+    "26.7 Write unit tests for responsive behaviour": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794680193733
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794682365733
+      }
+    ],
+    "28.2 Write automated accessibility tests": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794682421057
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794684527617
+      }
+    ],
+    "28. Accessibility and performance": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794684528434
+      }
+    ],
+    "29. Final integration": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685257693
+      }
+    ],
+    "29.3 Write Playwright smoke tests": [
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794685330942
+      },
+      {
+        "executionId": "4d2ba9a8-eacb-423e-960e-ae581f6bc00e",
+        "chatSessionId": "sess_48a0d6b8-56c6-4f22-b441-4e74100fee27",
+        "timestamp": 1794687106455
+      }
+    ]
+  }
+}

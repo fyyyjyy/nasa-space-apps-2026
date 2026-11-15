@@ -1,0 +1,59 @@
+/* End-of-story summary (Req 6.13, 6.14, 7.1, 10.5). Transparent: sits inside the story column. */
+.summary-view {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 3rem 0 4rem;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+@media (max-width: 767.98px) {
+  .summary-view {
+    padding: 1.5rem 0 2rem;
+  }
+}
+
+.summary-view__title {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: var(--size-title);
+  line-height: var(--line-height-heading);
+  color: var(--color-heading);
+}
+
+.summary-view__hardware {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: var(--size-heading);
+  line-height: var(--line-height-heading);
+  color: var(--color-heading);
+}
+
+.summary-view__dates,
+.summary-view__status {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-body);
+}
+
+.summary-view__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.summary-view .btn-text {
+  min-width: 44px;
+  min-height: 44px;
+  background: transparent;
+  font-family: var(--font-heading);
+  font-size: var(--size-body);
+  color: var(--color-button);
+  pointer-events: auto;
+}

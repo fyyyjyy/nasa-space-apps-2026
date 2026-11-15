@@ -1,0 +1,58 @@
+/* Credits and attribution (CC BY 4.0 for the Moon and Mars textures). */
+.credits {
+  max-width: 36rem;
+  text-align: left;
+  font-family: var(--font-body);
+  font-size: var(--size-caption);
+  line-height: var(--line-height-body);
+  color: var(--color-body);
+  pointer-events: auto;
+}
+.credits[open] {
+  background: var(--color-overlay);
+}
+.credits__summary {
+  display: inline-block;
+  min-height: 44px;
+  padding: 0.5rem 0.75rem;
+  font-family: var(--font-heading);
+  cursor: pointer;
+  color: var(--color-button);
+}
+.credits__line {
+  margin: 0 0 0.5rem;
+  padding: 0 0.75rem;
+}
+.credits a {
+  color: var(--color-button);
+}
+
+/* Only the opened credits text scrolls, never the footer that holds the button. */
+.credits[open] {
+  max-height: 40dvh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Close (X): top right of the open credits, 44px target. */
+.credits { position: relative; }
+.credits__close {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.credits[open] .credits__close { display: flex; }
+.credits__close:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+.credits[open] .credits__line:first-of-type { padding-right: 52px; }

@@ -1,0 +1,170 @@
+/* Quiz dialog: Requirements 7.2-7.7, 13 */
+.quiz-dialog {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: auto;
+  bottom: 0;
+  margin: 0;
+  width: 50vw;
+  max-width: none;
+  height: 100vh;
+  max-height: none;
+  box-sizing: border-box;
+  border: 0;
+  background: var(--color-overlay);
+  color: var(--color-body);
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: var(--line-height-body);
+  padding: calc(3rem + env(safe-area-inset-top, 0px))
+    calc(2rem + env(safe-area-inset-right, 0px))
+    calc(2rem + env(safe-area-inset-bottom, 0px))
+    2rem;
+  overflow-y: auto;
+}
+
+.quiz-dialog::backdrop {
+  background: transparent;
+}
+
+.quiz-dialog__close {
+  position: absolute;
+  top: calc(0.5rem + env(safe-area-inset-top, 0px));
+  right: calc(0.5rem + env(safe-area-inset-right, 0px));
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.quiz-dialog__title {
+  font-family: var(--font-heading);
+  font-size: var(--size-heading);
+  line-height: var(--line-height-heading);
+  color: var(--color-heading);
+  margin: 0 0 1rem;
+}
+
+.quiz-dialog__progress {
+  font-size: var(--size-caption);
+  color: var(--color-caption);
+  margin: 0 0 0.5rem;
+}
+
+.quiz-dialog__prompt,
+.quiz-dialog__score {
+  color: var(--color-heading);
+  margin: 0 0 1rem;
+}
+
+.quiz-dialog__choices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.quiz-dialog__choice,
+.quiz-dialog .btn-text {
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  font: inherit;
+  color: var(--color-button);
+  background: transparent;
+  border: 1px solid var(--color-caption);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform var(--transition-button);
+}
+
+@media (hover: hover) {
+  .quiz-dialog__choice:hover:not(:disabled),
+  .quiz-dialog .btn-text:hover {
+    transform: scale(var(--hover-scale));
+    transform-origin: left center;
+  }
+}
+
+.quiz-dialog button:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+.quiz-dialog__choice.is-correct { border-color: var(--color-callout); }
+.quiz-dialog__choice.is-incorrect { border-color: var(--color-caption); text-decoration: line-through; }
+.quiz-dialog__choice:disabled { color: var(--color-body); cursor: default; }
+
+.quiz-dialog__feedback { margin-top: 1rem; }
+.quiz-dialog__verdict { color: var(--color-callout); margin: 0 0 0.25rem; }
+.quiz-dialog__explanation { margin: 0 0 1rem; }
+
+.quiz-dialog__next,
+.quiz-dialog__retake {
+  margin-top: 1rem;
+}
+
+/* The score is shown in the body; keep the live copy for screen readers only. */
+.quiz-dialog__feedback .quiz-dialog__score {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+/* Mobile: full-width panel (Requirement 13) */
+@media (max-width: 767.98px) {
+  .quiz-dialog {
+    inset: auto 0 0 0;
+    background: #0A0A0F; /* opaque: story text must not show through the sheet */
+    width: 100%;
+    height: 60vh;
+    height: 60dvh;
+    max-height: 100dvh;
+    padding: 0 calc(1rem + env(safe-area-inset-right, 0px))
+      calc(1rem + env(safe-area-inset-bottom, 0px))
+      calc(1rem + env(safe-area-inset-left, 0px));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .quiz-dialog__close {
+    position: sticky;
+    top: 0;
+    right: auto;
+    z-index: 1;
+    margin: 0 0 -44px auto;
+    background: #0A0A0F;
+  }
+
+  .quiz-dialog__title {
+    padding-top: 0.75rem;
+    padding-right: 52px;
+  }
+
+  .quiz-dialog__choice,
+  .quiz-dialog .btn-text {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-dialog__choice,
+  .quiz-dialog .btn-text { transition: none; }
+  .quiz-dialog__choice:hover:not(:disabled),
+  .quiz-dialog .btn-text:hover {
+    transform: none;
+    text-decoration: underline;
+  }
+}

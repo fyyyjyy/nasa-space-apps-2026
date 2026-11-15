@@ -1,0 +1,94 @@
+/* Opening overlay (Req 1.6, 2.6, 10.1, 12.2, 12.4) */
+.opening-overlay {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  height: 100dvh;
+  min-width: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: max(1.5rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right))
+    max(1.5rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left));
+  text-align: center;
+  pointer-events: none;
+}
+
+.opening-overlay__header {
+  max-width: 48rem;
+  width: 100%;
+}
+
+.opening-overlay__title {
+  font-family: var(--font-heading);
+  font-size: var(--size-title);
+  font-weight: 700;
+  color: #FFFFFF;
+  text-shadow: 0 0 12px rgba(10, 10, 15, 0.9), 0 2px 6px rgba(10, 10, 15, 0.9);
+  overflow-wrap: anywhere;
+}
+
+.opening-overlay__subtitle {
+  margin: 0.75rem auto 0;
+  font-family: var(--font-body);
+  font-size: var(--size-subtitle);
+  line-height: var(--line-height-body);
+  color: var(--color-body);
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: break-word;
+  text-shadow: 0 1px 4px rgba(10, 10, 15, 0.9);
+}
+
+.opening-overlay__bodies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: stretch;
+  gap: 1rem;
+  pointer-events: none;
+}
+
+.opening-overlay__bodies .btn-text,
+.opening-overlay__footer .btn-text {
+  pointer-events: auto;
+  text-shadow: 0 1px 4px rgba(10, 10, 15, 0.9);
+}
+
+/* Orbit HUD: body label and way back to the opening view (Req 2.6) */
+.orbit-hud {
+  position: fixed;
+  top: max(1.5rem, env(safe-area-inset-top));
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  pointer-events: none;
+  text-align: center;
+}
+
+.orbit-hud__label {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: var(--size-title);
+  font-weight: 700;
+  color: #FFFFFF;
+  text-shadow: 0 0 12px rgba(10, 10, 15, 0.9), 0 2px 6px rgba(10, 10, 15, 0.9);
+}
+
+.orbit-hud .btn-text {
+  pointer-events: auto;
+  text-shadow: 0 1px 4px rgba(10, 10, 15, 0.9);
+}
+
+.opening-overlay__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: visible; /* the 120% hover scale must not be clipped or cause scrollbars */
+}

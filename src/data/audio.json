@@ -1,0 +1,24 @@
+{
+  "crossfadeMs": 2000,
+  "tracks": [
+    { "id": "space-ambient", "file": "space-ambient.m4a", "loop": true, "gain": 0.5, "mood": "Calm, wide, drifting", "source": "https://opengameart.org/content/steller-dreams (Steller Dreams by synth-thetic)", "license": "CC0" },
+    { "id": "surveyor3", "file": "surveyor3.m4a", "loop": true, "gain": 0.5, "mood": "Lonely, quiet, curious", "source": "https://opengameart.org/content/iridescent-deep (Iridescent Deep by Tsorthan Grove)", "license": "CC0" },
+    { "id": "apollo11", "file": "apollo11.m4a", "loop": true, "gain": 0.5, "mood": "Tense, then hopeful", "source": "https://opengameart.org/content/dark-sci-fi-audio-pack (Urgent by SRG774)", "license": "CC0" },
+    { "id": "apollo17", "file": "apollo17.m4a", "loop": true, "gain": 0.5, "mood": "Adventurous, bittersweet", "source": "https://opengameart.org/content/gates-to-infinity (Gates to Infinity by Tsorthan Grove)", "license": "CC0" },
+    { "id": "viking1", "file": "viking1.m4a", "loop": true, "gain": 0.5, "mood": "Alien, searching", "source": "https://opengameart.org/content/alien-world (Alien World by Tsorthan Grove)", "license": "CC0" },
+    { "id": "opportunity", "file": "opportunity.m4a", "loop": true, "gain": 0.5, "mood": "Determined, waking", "source": "https://opengameart.org/content/waking-states (Waking States by Tsorthan Grove)", "license": "CC0" },
+    { "id": "opportunity-quiet", "file": "opportunity-quiet.m4a", "loop": true, "gain": 0.5, "mood": "Quiet, lower register, final chapter", "source": "https://opengameart.org/content/waking-states (Waking States by Tsorthan Grove, low-pass filtered derivative)", "license": "CC0" },
+    { "id": "insight", "file": "insight.m4a", "loop": true, "gain": 0.5, "mood": "Pulsing, listening", "source": "https://opengameart.org/content/dark-sci-fi-audio-pack (Pulse by SRG774)", "license": "CC0" }
+  ],
+  "effects": [
+    { "id": "ui-hover", "file": "ui-hover.m4a", "gain": 0.4, "source": "https://opengameart.org/content/dark-sci-fi-audio-pack (Hover by SRG774)", "license": "CC0" }
+  ],
+  "missions": {
+    "surveyor3": { "audio": { "trackId": "surveyor3" } },
+    "apollo11": { "audio": { "trackId": "apollo11" } },
+    "apollo17": { "audio": { "trackId": "apollo17" } },
+    "viking1": { "audio": { "trackId": "viking1" } },
+    "opportunity": { "audio": { "trackId": "opportunity", "variationTrackId": "opportunity-quiet" } },
+    "insight": { "audio": { "trackId": "insight" } }
+  }
+}

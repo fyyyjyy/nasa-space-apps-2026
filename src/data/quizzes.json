@@ -1,0 +1,248 @@
+[
+  {
+    "missionId": "surveyor3",
+    "questions": [
+      {
+        "id": "surveyor3-q1",
+        "prompt": "What happened when Surveyor 3 came down toward the Moon?",
+        "choices": [
+          { "id": "surveyor3-q1-a", "text": "It touched down three times, bouncing twice before it stayed put", "correct": true },
+          { "id": "surveyor3-q1-b", "text": "It landed gently on the first try and never moved", "correct": false },
+          { "id": "surveyor3-q1-c", "text": "It bounced ten times across the Moon", "correct": false },
+          { "id": "surveyor3-q1-d", "text": "It missed the Moon and kept flying", "correct": false }
+        ],
+        "explanation": "Shiny rocks confused the descent radar, so the engine did not shut off at the right moment. Surveyor 3 bounced twice and settled on its third touchdown.",
+        "sourceUrl": "https://science.nasa.gov/mission/surveyor-3/"
+      },
+      {
+        "id": "surveyor3-q2",
+        "prompt": "What did Surveyor 3's digging show about the lunar soil?",
+        "choices": [
+          { "id": "surveyor3-q2-a", "text": "It was as hard as solid steel", "correct": false },
+          { "id": "surveyor3-q2-b", "text": "It was a deep pool of liquid", "correct": false },
+          { "id": "surveyor3-q2-c", "text": "It felt like wet sand and was strong enough to support an Apollo lunar module", "correct": true },
+          { "id": "surveyor3-q2-d", "text": "It was too soft for anything to stand on", "correct": false }
+        ],
+        "explanation": "Surveyor 3 dug four trenches and ran bearing and impact tests. Scientists decided the soil had a consistency like wet sand and was solid enough for an Apollo lunar module.",
+        "sourceUrl": "https://science.nasa.gov/mission/surveyor-3/"
+      },
+      {
+        "id": "surveyor3-q3",
+        "prompt": "Why did Surveyor 3 go silent after the lunar night began?",
+        "choices": [
+          { "id": "surveyor3-q3-a", "text": "It ran on sunlight, and the sunlight was gone", "correct": true },
+          { "id": "surveyor3-q3-b", "text": "It ran out of television pictures to send", "correct": false },
+          { "id": "surveyor3-q3-c", "text": "Its scoop arm broke off", "correct": false },
+          { "id": "surveyor3-q3-d", "text": "It fell into a deeper crater", "correct": false }
+        ],
+        "explanation": "Surveyor 3 was solar powered. After it sent 6,326 pictures, the lunar night left it in the dark, and NASA made its last contact on May 4, 1967.",
+        "sourceUrl": "https://science.nasa.gov/mission/surveyor-3/"
+      }
+    ]
+  },
+  {
+    "missionId": "apollo11",
+    "questions": [
+      {
+        "id": "apollo11-q1",
+        "prompt": "What did Neil Armstrong do when he saw Eagle was headed for a field of boulders?",
+        "choices": [
+          { "id": "apollo11-q1-a", "text": "He took manual control and flew past a crater and the rocks", "correct": true },
+          { "id": "apollo11-q1-b", "text": "He turned around and flew back to orbit", "correct": false },
+          { "id": "apollo11-q1-c", "text": "He let the computer land on the boulders", "correct": false },
+          { "id": "apollo11-q1-d", "text": "He waited for Houston to take over the flying", "correct": false }
+        ],
+        "explanation": "The guidance computer flashed 1202 and 1201 alarms because it was overloaded. Mission Control judged it safe to continue, and Armstrong flew manually over the boulder field before landing.",
+        "sourceUrl": "https://www.nasa.gov/wp-content/uploads/static/history/SP-350/ch-11-4.html"
+      },
+      {
+        "id": "apollo11-q2",
+        "prompt": "What happened to Eagle's descent stage when the astronauts left the Moon?",
+        "choices": [
+          { "id": "apollo11-q2-a", "text": "It flew back to Earth with them", "correct": false },
+          { "id": "apollo11-q2-b", "text": "It stayed behind on the Moon", "correct": true },
+          { "id": "apollo11-q2-c", "text": "It was thrown into the Sun", "correct": false },
+          { "id": "apollo11-q2-d", "text": "It orbited the Moon for years", "correct": false }
+        ],
+        "explanation": "The crew climbed back into the ascent stage and lifted off. The descent stage stayed at Tranquility Base, after a lunar surface stay of about 21.6 hours.",
+        "sourceUrl": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html"
+      },
+      {
+        "id": "apollo11-q3",
+        "prompt": "What do laser measurements bounced off the Apollo 11 reflector show about the Moon?",
+        "choices": [
+          { "id": "apollo11-q3-a", "text": "The Moon is moving closer to Earth", "correct": false },
+          { "id": "apollo11-q3-b", "text": "The Moon is not moving at all", "correct": false },
+          { "id": "apollo11-q3-c", "text": "The Moon is shrinking by 3.8 centimeters a year", "correct": false },
+          { "id": "apollo11-q3-d", "text": "The Moon is moving farther from Earth by about 3.8 centimeters each year", "correct": true }
+        ],
+        "explanation": "The reflector has 100 quartz glass prisms and needs no power. Scientists time how long laser light takes to return, and the distance grows by about 3.8 centimeters (1.5 inches) a year.",
+        "sourceUrl": "https://www.nasa.gov/missions/apollo/apollo-11/the-apollo-experiment-that-keeps-on-giving/"
+      }
+    ]
+  },
+  {
+    "missionId": "apollo17",
+    "questions": [
+      {
+        "id": "apollo17-q1",
+        "prompt": "Why did scientists choose Taurus-Littrow Valley for the Apollo 17 landing?",
+        "choices": [
+          { "id": "apollo17-q1-a", "text": "It was the flattest place on the Moon", "correct": false },
+          { "id": "apollo17-q1-b", "text": "Rocks both older and younger than earlier samples might be found there", "correct": true },
+          { "id": "apollo17-q1-c", "text": "It was the closest spot to Earth", "correct": false },
+          { "id": "apollo17-q1-d", "text": "Water ice was already known to be there", "correct": false }
+        ],
+        "explanation": "Taurus-Littrow was picked as a place where rocks older and younger than earlier Apollo and Luna samples might be found. Challenger landed there on December 11, 1972.",
+        "sourceUrl": "https://www.nasa.gov/missions/apollo/apollo-17-mission-details/"
+      },
+      {
+        "id": "apollo17-q2",
+        "prompt": "What is the orange soil that Harrison Schmitt spotted near Shorty Crater made of?",
+        "choices": [
+          { "id": "apollo17-q2-a", "text": "Rusty iron dust blown in from Mars", "correct": false },
+          { "id": "apollo17-q2-b", "text": "Crushed orange crystals from a meteorite", "correct": false },
+          { "id": "apollo17-q2-c", "text": "Paint from the lunar module", "correct": false },
+          { "id": "apollo17-q2-d", "text": "Tiny glass beads formed from sprays of lava about 3.5 billion years ago", "correct": true }
+        ],
+        "explanation": "The orange soil is made of tiny glass beads that formed from lava sprays. It is better described as a volcanic ash than a soil.",
+        "sourceUrl": "https://curator.jsc.nasa.gov/education/diskdetails.cfm?class=Orange%20Soil&disk=45"
+      },
+      {
+        "id": "apollo17-q3",
+        "prompt": "About how much lunar material did the Apollo 17 astronauts gather?",
+        "choices": [
+          { "id": "apollo17-q3-a", "text": "About 110 kilograms (243 pounds)", "correct": true },
+          { "id": "apollo17-q3-b", "text": "About 1 kilogram", "correct": false },
+          { "id": "apollo17-q3-c", "text": "About 10 kilograms", "correct": false },
+          { "id": "apollo17-q3-d", "text": "About 1,000 kilograms", "correct": false }
+        ],
+        "explanation": "The crew gathered 110.4 kilograms (243 pounds) of material, a record Apollo haul that scientists still study today.",
+        "sourceUrl": "https://www.nasa.gov/missions/apollo/apollo-17-mission-details/"
+      }
+    ]
+  },
+  {
+    "missionId": "viking1",
+    "questions": [
+      {
+        "id": "viking1-q1",
+        "prompt": "What made Viking 1 the first truly successful NASA landing on Mars?",
+        "choices": [
+          { "id": "viking1-q1-a", "text": "It was the first lander to reach Mars, and it landed exactly on target", "correct": false },
+          { "id": "viking1-q1-b", "text": "An earlier lander, Mars 3, touched down in 1971 but lost contact within seconds, while Viking 1 kept working", "correct": true },
+          { "id": "viking1-q1-c", "text": "It landed in 1971, before any other lander", "correct": false },
+          { "id": "viking1-q1-d", "text": "It landed on the Moon first and then flew on to Mars", "correct": false }
+        ],
+        "explanation": "The Soviet Mars 3 lander touched down in 1971, but contact was lost seconds later. Viking 1 landed on July 20, 1976, about 28 kilometers (17 miles) from its planned target.",
+        "sourceUrl": "https://science.nasa.gov/mission/viking-1/"
+      },
+      {
+        "id": "viking1-q2",
+        "prompt": "What did Viking 1's first color image show about Mars?",
+        "choices": [
+          { "id": "viking1-q2-a", "text": "Blue oceans under a clear sky", "correct": false },
+          { "id": "viking1-q2-b", "text": "Green fields and tall trees", "correct": false },
+          { "id": "viking1-q2-c", "text": "Orange-red ground under a sky with a reddish cast", "correct": true },
+          { "id": "viking1-q2-d", "text": "White snow covering the whole plain", "correct": false }
+        ],
+        "explanation": "The image was taken on July 21, 1976. The sky looks reddish, probably because reddish sediment hangs in the lower atmosphere.",
+        "sourceUrl": "https://science.nasa.gov/resource/first-color-image-from-viking-lander-1/"
+      },
+      {
+        "id": "viking1-q3",
+        "prompt": "What did Viking 1's main test for organic compounds find in the Martian soil?",
+        "choices": [
+          { "id": "viking1-q3-a", "text": "Plenty of organic compounds, which proved life exists", "correct": false },
+          { "id": "viking1-q3-b", "text": "A negative result, even though the combined data from four samples could be read as a weak sign of life", "correct": true },
+          { "id": "viking1-q3-c", "text": "Only frozen water", "correct": false },
+          { "id": "viking1-q3-d", "text": "Nothing, because the robot arm could not reach the soil", "correct": false }
+        ],
+        "explanation": "On July 28, 1976, the robot arm dropped soil samples into the biological laboratory. The combined data from four samples could have been read as a weak positive for life, but the organic compounds test was negative.",
+        "sourceUrl": "https://science.nasa.gov/mission/viking-1/"
+      }
+    ]
+  },
+  {
+    "missionId": "opportunity",
+    "questions": [
+      {
+        "id": "opportunity-q1",
+        "prompt": "What did Opportunity find inside the BB-sized spheres nicknamed blueberries?",
+        "choices": [
+          { "id": "opportunity-q1-a", "text": "Liquid water", "correct": false },
+          { "id": "opportunity-q1-b", "text": "Hematite, an iron mineral that often forms in water", "correct": true },
+          { "id": "opportunity-q1-c", "text": "Tiny fossils of Martian plants", "correct": false },
+          { "id": "opportunity-q1-d", "text": "Pure gold", "correct": false }
+        ],
+        "explanation": "One of Opportunity's instruments showed the spheres contain hematite. Together with Spirit's findings, this helped confirm that water was long standing on the surface of Mars in ancient times.",
+        "sourceUrl": "https://science.nasa.gov/resource/meridiani-planum-2/"
+      },
+      {
+        "id": "opportunity-q2",
+        "prompt": "Opportunity was built for a 90-sol mission. About how much longer than planned did it last?",
+        "choices": [
+          { "id": "opportunity-q2-a", "text": "About twice as long", "correct": false },
+          { "id": "opportunity-q2-b", "text": "About 10 times as long", "correct": false },
+          { "id": "opportunity-q2-c", "text": "About 60 times as long", "correct": true },
+          { "id": "opportunity-q2-d", "text": "It stopped working right on schedule", "correct": false }
+        ],
+        "explanation": "Opportunity kept rolling for more than 14 years, about 60 times longer than planned, and drove 45.16 kilometers (28.06 miles).",
+        "sourceUrl": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/"
+      },
+      {
+        "id": "opportunity-q3",
+        "prompt": "What ended Opportunity's mission?",
+        "choices": [
+          { "id": "opportunity-q3-a", "text": "A Mars-wide dust storm blocked its sunlight, and it never answered after its last signal", "correct": true },
+          { "id": "opportunity-q3-b", "text": "It drove off the rim of Endeavour Crater", "correct": false },
+          { "id": "opportunity-q3-c", "text": "Its airbags failed on landing", "correct": false },
+          { "id": "opportunity-q3-d", "text": "NASA turned it off after 90 sols", "correct": false }
+        ],
+        "explanation": "Opportunity's last signal came on June 10, 2018. After more than a thousand commands got no answer, NASA declared the mission complete on February 13, 2019.",
+        "sourceUrl": "https://science.nasa.gov/missions/mars-exploration-rovers/nasas-opportunity-rover-mission-on-mars-comes-to-end/"
+      }
+    ]
+  },
+  {
+    "missionId": "insight",
+    "questions": [
+      {
+        "id": "insight-q1",
+        "prompt": "What was special about the first likely marsquake that InSight recorded on April 6, 2019?",
+        "choices": [
+          { "id": "insight-q1-a", "text": "It was caused by the lander's own landing", "correct": false },
+          { "id": "insight-q1-b", "text": "It was the first trembling that appeared to come from inside the planet", "correct": true },
+          { "id": "insight-q1-c", "text": "It destroyed the seismometer", "correct": false },
+          { "id": "insight-q1-d", "text": "It came from a space rock hitting the surface", "correct": false }
+        ],
+        "explanation": "InSight landed on November 26, 2018. Its seismometer recorded the first likely marsquake on the lander's 128th Martian day, and it seemed to come from inside Mars.",
+        "sourceUrl": "https://science.nasa.gov/missions/insight/nasas-insight-detects-first-likely-quake-on-mars/"
+      },
+      {
+        "id": "insight-q2",
+        "prompt": "Why could InSight's mole not dig down about 5 meters as planned?",
+        "choices": [
+          { "id": "insight-q2-a", "text": "The soil was clumpy and gave it too little friction", "correct": true },
+          { "id": "insight-q2-b", "text": "The ground was solid ice", "correct": false },
+          { "id": "insight-q2-c", "text": "The mole ran out of power", "correct": false },
+          { "id": "insight-q2-d", "text": "Its tether was cut by a marsquake", "correct": false }
+        ],
+        "explanation": "The mole was designed for loose, sandy soil. It ended up just under the surface, but it still gathered data on the soil's physical and thermal properties.",
+        "sourceUrl": "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/"
+      },
+      {
+        "id": "insight-q3",
+        "prompt": "How did dust change InSight's solar panels between landing and 2022?",
+        "choices": [
+          { "id": "insight-q3-a", "text": "Their energy rose from about 500 to about 5,000 watt-hours per sol", "correct": false },
+          { "id": "insight-q3-b", "text": "Their energy stayed about the same", "correct": false },
+          { "id": "insight-q3-c", "text": "Their energy fell from about 5,000 to about 500 watt-hours per sol", "correct": true },
+          { "id": "insight-q3-d", "text": "Their energy fell from about 50,000 to about 5,000 watt-hours per sol", "correct": false }
+        ],
+        "explanation": "Dust slowly covered the panels. The last contact with Earth came on December 15, 2022, and NASA retired the mission on December 21, 2022.",
+        "sourceUrl": "https://www.nasa.gov/missions/insight/nasa-retires-insight-mars-lander-mission-after-years-of-science/"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Silent Explorers</title>
+    <meta name="description" content="The untold stories of NASA's machines, still resting on the Moon and Mars." />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' data: blob:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <link rel="preload" href="/textures/moon_2k.jpg" as="image" crossorigin />
+    <link rel="preload" href="/textures/mars_2k.jpg" as="image" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600&family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <main id="main" tabindex="-1">
+      <canvas id="scene" role="img" aria-label="Space view showing the Moon and Mars"></canvas>
+      <h1 id="site-title">Silent Explorers</h1>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

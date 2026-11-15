@@ -1,0 +1,22 @@
+{
+  "label": "Credits",
+  "lines": [
+    {
+      "id": "textures",
+      "required": true,
+      "text": "Moon and Mars textures courtesy of Solar System Scope (www.solarsystemscope.com), licensed under CC BY 4.0. Based on NASA elevation and imagery data. Used unmodified.",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "licenceLabel": "CC BY 4.0"
+    },
+    {
+      "id": "nasa",
+      "required": false,
+      "text": "Mission images and the Apollo 11, Viking 1, Opportunity and InSight 3D models: NASA. Used under the NASA Images and Media Usage Guidelines. The Surveyor 3 and Apollo 17 3D models were generated with Claude Code. Not an official NASA product and not endorsed by NASA."
+    },
+    {
+      "id": "audio",
+      "required": false,
+      "text": "Music and sounds: synth-thetic, Tsorthan Grove and SRG774, CC0, via OpenGameArt.org."
+    }
+  ]
+}

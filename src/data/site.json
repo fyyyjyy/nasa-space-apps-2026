@@ -1,0 +1,12 @@
+{
+  "title": "Silent Explorers",
+  "subtitle": "The untold stories of NASA's machines, still resting on the Moon and Mars, abandoned but not forgotten",
+  "journeyButtonLabel": "Experience the Full Journey",
+  "journeyIntro": { "text": "Six machines. Six stories. 1967 to 2022.", "span": "1967–2022" },
+  "closing": { "exploreOnYourOwnLabel": "Explore on Your Own" },
+  "webglFallbackMessage": "Silent Explorers needs a WebGL-capable browser. Please update your browser or try a different one.",
+  "bodies": {
+    "moon": { "label": "The Moon", "texture": "textures/moon_2k.jpg", "radiusKm": 1737.4 },
+    "mars": { "label": "Mars", "texture": "textures/mars_2k.jpg", "radiusKm": 3389.5 }
+  }
+}

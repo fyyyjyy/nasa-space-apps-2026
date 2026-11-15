@@ -1,0 +1,164 @@
+/* Reset and base styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: var(--color-bg);
+  color: var(--color-body);
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: var(--line-height-body);
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  line-height: var(--line-height-heading);
+}
+
+p, figure, blockquote, ul, ol {
+  margin: 0;
+}
+
+body,
+section,
+figure,
+li,
+button {
+  min-width: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, figcaption, li {
+  overflow-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  margin: 0;
+}
+
+/* Full-screen canvas under all UI */
+#scene {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  display: block;
+  z-index: 0;
+}
+
+/* Borderless text button (Req 6.19, 12.2, 12.11) */
+.btn-text {
+  appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  padding: 0.5rem 0.75rem;
+  min-width: 44px;
+  min-height: 44px;
+  font-family: var(--font-heading);
+  font-size: var(--size-body);
+  line-height: var(--line-height-body);
+  color: var(--color-button);
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform var(--transition-button) ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+  .btn-text:hover {
+    transform: scale(var(--hover-scale));
+  }
+}
+
+.btn-text:focus-visible {
+  transform: scale(var(--hover-scale));
+}
+
+/* Visible focus indicator for all interactive elements (Req 8.4) */
+:focus-visible {
+  outline: var(--focus-outline);
+  outline-offset: var(--focus-offset);
+}
+
+/* Reduced motion: no scaling, underline instead */
+@media (prefers-reduced-motion: reduce) {
+  .btn-text {
+    transition: none;
+  }
+
+  .btn-text:focus-visible {
+    transform: none;
+    text-decoration: underline;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) and (hover: hover) {
+  .btn-text:hover {
+    transform: none;
+    text-decoration: underline;
+  }
+}
+
+/* Visually hidden, still read by screen readers (live announcements, off-screen h1) */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Skip link: first in tab order, visible on focus (Req 8.4) */
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 2000;
+  padding: 0.5rem 1rem;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  background: var(--color-bg);
+  color: var(--color-button);
+  font-family: var(--font-heading);
+  font-size: var(--size-body);
+  transform: translateY(-200%);
+}
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .skip-link { transition: none; }
+}
+
+/* #main is only a programmatic focus target for the skip link */
+#main:focus {
+  outline: none;
+}
