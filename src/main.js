@@ -196,6 +196,26 @@ async function wireOpeningScene({ store, sceneManager, canvas }) {
     onHoverSound: playHover,
   });
 
+  // Keep the "The Moon" / "Mars" buttons just under their bodies, at any screen size.
+  const bodyLabelPos = new THREE.Vector3();
+  sceneManager.addUpdateCallback(() => {
+    if (overlay.el.style.display === 'none') return;
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    for (const btn of overlay.el.querySelectorAll('.opening-overlay__bodies [data-body]')) {
+      const id = btn.dataset.body;
+      const mesh = getMesh(id);
+      if (!mesh) continue;
+      mesh.getWorldPosition(bodyLabelPos);
+      bodyLabelPos.y -= getRadius(id) * 1.25; // just below the sphere
+      bodyLabelPos.project(camera);
+      const x = Math.min(Math.max((bodyLabelPos.x * 0.5 + 0.5) * vw, 0), vw);
+      const y = (-bodyLabelPos.y * 0.5 + 0.5) * vh;
+      btn.style.left = Math.round(x) + 'px';
+      btn.style.top = Math.round(y) + 'px';
+    }
+  });
+
   // Orbit HUD: body label (Requirement 2.6) and a borderless way back to the opening view.
   const hud = document.createElement('div');
   hud.className = 'orbit-hud';

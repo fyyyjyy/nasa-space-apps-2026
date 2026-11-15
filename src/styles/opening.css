@@ -92,3 +92,12 @@
   align-items: center;
   overflow: visible; /* the 120% hover scale must not be clipped or cause scrollbars */
 }
+
+/* The body buttons follow their spheres (positioned from main.js each frame). */
+.opening-overlay__bodies .btn-text {
+  position: fixed;
+  left: 50%;
+  top: 70%;
+  translate: -50% 0; /* centred under the sphere; separate from the 120% hover scale */
+  white-space: nowrap;
+}
