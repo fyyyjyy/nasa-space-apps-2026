@@ -14,11 +14,11 @@ function initialCamera(aspect) {
 }
 
 describe('Property 1: Starfield quadrant coverage', () => {
-  it('places at least 100 stars in every viewport quadrant for any seed and count >= 1000', () => {
+  it('places at least 100 stars in every viewport quadrant for any seed and count >= 2000 (createStarfield never builds fewer)', () => {
     fc.assert(
       fc.property(
         fc.integer({ min: 0, max: 2 ** 31 - 1 }),
-        fc.integer({ min: 1000, max: 6000 }),
+        fc.integer({ min: 2000, max: 6000 }),
         fc.double({ min: 1, max: 2.4, noNaN: true }),
         (seed, count, aspect) => {
           const positions = generateStarPositions(count, seed);

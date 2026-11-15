@@ -1,14 +1,14 @@
 // Starfield: seeded, stratified star positions rendered as a single THREE.Points.
 import { BufferAttribute, BufferGeometry, Points, PointsMaterial, Vector3 } from 'three';
 
-export const DEFAULT_STAR_COUNT = 3000;
+export const DEFAULT_STAR_COUNT = 4500;
 export const DEFAULT_SEED = 20260;
 const MIN_RADIUS = 200;
 const MAX_RADIUS = 400;
 // Share of stars placed in the forward view (around the -z viewing axis).
 const FORWARD_SHARE = 0.7;
-// Tangent-plane half extents of the forward region (covers portrait to wide viewports).
-const FORWARD_HALF_U = 0.5;
+// Tangent-plane half extents of the forward region (covers portrait up to ultrawide: at fov 45 a 21:9 screen needs about 0.97).
+const FORWARD_HALF_U = 1.1;
 const FORWARD_HALF_V = 0.4;
 
 /** Small deterministic PRNG (mulberry32). */
